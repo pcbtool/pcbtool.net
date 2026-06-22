@@ -1,620 +1,574 @@
-# PCBTool.Net — 收录 371 款 PCB 设计工具的全能导航站
+# PCBTool.Net — The Ultimate PCB Design Tools Directory (371 Tools & Counting)
 
-> 从原理图设计到 PCB 仿真，从 AI 辅助到在线查看器，从元器件库到硬件社区，一个站点帮你找到最合适的 EDA 工具
-
----
-
-## 一、缘起：为什么要做这样一个导航站？
-
-如果你是电子工程师或者硬件爱好者，你一定经历过这样的场景：
-
-你想找个在线 Gerber 查看器快速验证一下导出文件，打开搜索引擎，关键词输进去，翻了好几页，试了三四个网站——有的打不开，有的要注册，有的只支持特定格式。半小时过去了，你还没看到你的 PCB 长什么样。
-
-或者你想试试最近很火的 AI PCB 设计工具，但不知道有哪些可选、哪个适合你的需求。搜索出来一堆营销文章，分不清哪些是真的能用、哪些还在画饼。
-
-**PCBTool.Net 的初心很简单：花最少的时间找到最合适的工具。**
-
-它就像一个"EDA 工具领域的黄页"——收录、分类、展示每一款工具的详细信息，让你不用再在搜索引擎里大海捞针。
-
-![pcbtool-net-introduction](/images/pcbtool-net-introduction-20260622220414.png)  
-
-🌐 **直接访问: [https://pcbtool.net](https://pcbtool.net)**
-
+> From schematic capture to PCB simulation, from AI-powered EDA to online Gerber viewers, from component libraries to hardware communities — one site to find the right tool for every stage of hardware design.
 
 ---
 
-## 二、数据说话：371 款工具 × 11 大分类
+## Why PCBTool.Net?
 
-从 2026 年 4 月上线至今，站点经历了快速迭代：
+If you're an electronics engineer or hardware enthusiast, you know the pain:
 
-| 阶段 | 时间 | 工具数量 | 说明 |
-|------|------|---------|------|
-| 初始发布 | 2026-04 | ~90 款 | 核心 EDA 工具收录 |
-| 第一次大规模扩充 | 2026-04-07 | 220+ 款 | 大幅扩充国产 EDA 生态 |
-| 持续增长 | 2026-04 ~ 今 | 371+ 款 | 覆盖 AI for EDA、仿真、社区等全品类 |
-| **最新** | **2026-06-22** | **371 款** | **11 分类，760+ 生成页面** |
+You need an online Gerber viewer to quickly check an export. You fire up Google, type in some keywords, flip through pages of results, try three or four sites — one doesn't load, another requires registration, a third only supports a proprietary format. Thirty minutes later, you still haven't seen your PCB.
 
----
+Or maybe you want to try one of the new AI-powered PCB design tools, but you have no idea which ones actually work and which are just vaporware. The search results are a swamp of marketing fluff.
 
-## 三、逐类详解：371 款工具全收录
+**PCBTool.Net has a simple mission: spend less time finding tools, more time using them.**
 
-下面按分类逐一列出所有工具及其简介，方便你快速扫描。
+Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 371 PCB design tools, with detailed information on each one.
 
 ---
 
-### 🧠 AI for EDA（29 款）
+## By the Numbers
 
-> 2025-2026 年最火赛道。从 AI 生成原理图、AI PCB 布局布线到 AI 设计审查，几乎每天都有新工具涌现。
+| Milestone | Date | Tools | Notes |
+|-----------|------|-------|-------|
+| Initial Launch | 2026-04 | ~90 | Core EDA tools |
+| Major Expansion | 2026-04-07 | 220+ | Added Chinese domestic EDA ecosystem |
+| Ongoing Growth | 2026-04 ~ now | 371+ | AI for EDA, simulation, communities, etc. |
+| **Latest** | **2026-06-22** | **371 tools** | **11 categories, 760+ generated pages** |
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **AllSpice** | allspice | AI 驱动的硬件团队设计评审平台，自动化审查、版本控制与协作 |
-| **AutoCuro** | autocuro | 上传板框和约束，AI 自动完成 PCB 布局布线，缩短 90% 设计时间 |
-| **Blueprint.am** | blueprint-am | 3E8 Robotics 出品，自然语言描述即可生成 3D 模型、接线图、BOM |
-| **BV Circuits** | bv-circuits | AI 驱动的电气原理图分析验证工具 |
-| **CELUS** | celus | AI 电子设计自动化平台，自动化复杂硬件设计环节 |
-| **Chat Diagram** | chat-diagram | 自然语言对话生成电路图、流程图和系统架构图 |
-| **CircuitMind** | circuitmind | AI 辅助电路设计与 PCB 布局 |
-| **Circuit Tree** | circuit-tree | 自动化 PCB 设计引擎，输入需求 10 分钟交付设计 |
-| **Circuitly** | circuitly | 在线电子设计协作平台，原理图到 PCB 全流程 |
-| **DesignGuard** | designguard | AI PCB 设计审查与 DFM 检查 |
-| **EDA365 AI** | eda365-ai | EDA 技术社区，AI 与 EDA 交叉技术交流 |
-| **Faradworks** | faradworks | 纽约 AI 硬件实验室，Pinscope 母公司 |
-| **Flux.ai** | flux-ai | 浏览器端 AI 辅助 PCB 设计，实时团队协作 |
-| **Galvano** | galvano | AI 驱动的 PCB 设计优化，提升信号完整性 |
-| **华秋 ERC** | hq-erc | 在线电气规则检查（ERC）工具 |
-| **hardware.dog** | hardware-dog | 综合 AI 硬件设计平台：电路生成、布局、审查、计算器 |
-| **iOrchestra** | iorchestra | NVIDIA Blackwell 驱动的 AI 硬件设计平台 |
-| **JetPave** ⛔ | jetpave | 捷配 AI 原生硬件平台（已停止维护） |
-| **JITX** | jitx | 用代码定义电路和 PCB 布局，自动化生成设计 |
-| **Pinscope** | pinscope | AI 原理图审查，逐引脚比对数据手册，可追溯验证 |
-| **ProtoFlow** | protoflow | AI-native 桌面 PCB 设计工具，加速从概念到 PCB 起点 |
-| **Quilter** | quilter | 物理驱动强化学习 AI 完整 PCB 布局布线 |
-| **Schemalyzer** | schemalyzer | 专为 EasyEDA 设计的 AI 原理图分析工具 |
-| **Schematik** | schematik | 被称为"硬件版 Cursor"——自然语言生成固件+接线图+烧录 |
-| **SnapMagic** | snapmagic | AI 电子设计副驾，自然语言生成原理图，优化 BOM 一键采购 |
-| **Tinkered** | tinkered | AI 硬件开发平台：生成+3D 仿真+部署三位一体 |
-| **Traceformer** | traceformer | AI 驱动的 PCB 电气设计审查，基于数据手册精准验证 |
-| **tscircuit** | tscircuit | 全球首个基于 TypeScript 的开源码定义硬件 EDA 工具 |
-| **ZeroOhm AI** | zeroohm-ai | AI PCB 验证平台，原理图和 Layout 双重审查（Beta） |
+**Tech stack:** Node.js + Markdown → static HTML. No frameworks, no databases, no JavaScript rendering. Every page is pre-rendered at build time for maximum performance and SEO.
 
 ---
 
-### 📐 原理图 & PCB（102 款）
+## 371 Tools × 11 Categories
 
-> 最大分类，收录从国际主流到国产自主的各类 EDA 软件，覆盖从经典工具到最新一代设计平台。
+### 🧠 AI for EDA (29 Tools) — Fastest Growing Category
 
-**国际主流：**
+The hottest space in EDA right now. AI tools that generate schematics, place components, review designs, and even write firmware from natural language descriptions.
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Altium Designer** | altium | 全球最流行的 PCB 设计平台，原理图到 3D 全流程 |
-| **Allegro X** | allegro-x | Cadence 企业级 PCB 设计平台 |
-| **Cadence OrCAD X Capture** | orcad-x-capture | OrCAD 新一代原理图捕获工具 |
-| **Cadence OrCAD X PCB** | orcad-x-pcb | OrCAD 新一代 PCB Layout 工具 |
-| **Siemens Xpedition** | expedition | Siemens 高端 PCB 设计流程 |
-| **Siemens PADS** | pads | 中端 PCB 设计标准工具 |
-| **Siemens DxDesigner** | dxdesigner | Siemens 原理图设计环境 |
-| **Zuken CR-8000** | cr-8000 | Zuken 旗舰级 PCB 设计系统 |
-| **Zuken CR-5000** | cr-5000 | Zuken 经典 PCB 设计平台 |
-| **KiCad** | kicad | 开源 EDA 首选，近年发展迅猛 |
-| **Autodesk EAGLE** | eagle | 经典的 PCB 设计工具（已整合至 Fusion 360） |
-| **DesignSpark PCB** | designspark-pcb | RS Group 免费 PCB 设计工具 |
-| **Proteus** | proteus | 独有单片机仿真功能的 EDA 工具 |
-| **Pulsonix** | pulsonix | 英国 EDA 工具，操作逻辑接近早期 Protel |
-| **DipTrace** | diptrace | 界面友好的 PCB 设计工具，学习曲线平缓 |
-| **CircuitMaker** | circuitmaker | Altium 免费社区版 PCB 设计 |
-| **CircuitStudio** | circuitstudio | Altium 中端 PCB 设计工具 |
-| **Target 3001** | target-3001 | 德国一体化 EDA 工具 |
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **AllSpice** | allspice | AI-driven design review platform for hardware teams | https://pcbtool.net/sites/allspice |
+| **AutoCuro** | autocuro | AI PCB design automation — upload constraints, get optimized layout in minutes | https://pcbtool.net/sites/autocuro |
+| **Blueprint.am** | blueprint-am | AI hardware design by 3E8 Robotics — generate 3D models, wiring, BOM from text | https://pcbtool.net/sites/blueprint-am |
+| **BV Circuits** | bv-circuits | AI-powered electrical schematic analysis and validation | https://pcbtool.net/sites/bv-circuits |
+| **CELUS** | celus | AI-driven EDA platform automating complex hardware design | https://pcbtool.net/sites/celus |
+| **Circuitly** | circuitly | Online electronic design collaboration with schematic-to-PCB workflow | https://pcbtool.net/sites/circuitly |
+| **Chat Diagram** | chat-diagram | AI circuit diagram generation through natural language chat | https://pcbtool.net/sites/chat-diagram |
+| **CircuitMind** | circuitmind | AI-assisted circuit design and PCB layout | https://pcbtool.net/sites/circuitmind |
+| **Circuit Tree** | circuit-tree | Automated PCB design engine — generates complete boards from user input | https://pcbtool.net/sites/circuit-tree |
+| **DesignGuard** | designguard | AI-based PCB design review and DFM checking | https://pcbtool.net/sites/designguard |
+| **EDA365 AI** | eda365-ai | Chinese EDA community with AI-focused discussions | https://pcbtool.net/sites/eda365-ai |
+| **Faradworks** | faradworks | Applied AI lab for electronics (creator of Pinscope), NYC-based | https://pcbtool.net/sites/faradworks |
+| **Galvano** | galvano | AI-driven PCB optimization using machine learning | https://pcbtool.net/sites/galvano |
+| **hardware.dog** | hardware-dog | AI hardware design platform with circuit gen, layout, review, and calculators | https://pcbtool.net/sites/hardware-dog |
+| **Huaqiu ERC** | hq-erc | Online Electrical Rule Check for PCB schematics | https://pcbtool.net/sites/hq-erc |
+| **Flux.ai** | flux-ai | Browser-based AI-assisted PCB design with real-time collaboration | https://pcbtool.net/sites/flux-ai |
+| **iOrchestra** | iorchestra | AI hardware design via natural language, powered by NVIDIA Blackwell | https://pcbtool.net/sites/iorchestra |
+| **JetPave** | jetpave | Jiepei's AI-native hardware platform (now discontinued/inactive) | https://pcbtool.net/sites/jetpave |
+| **JITX** | jitx | Code-defined PCB design — write hardware like software | https://pcbtool.net/sites/jitx |
+| **Pinscope** | pinscope | AI schematic review — checks every pin against its datasheet | https://pcbtool.net/sites/pinscope |
+| **ProtoFlow** | protoflow | AI-native desktop PCB design from concept to clean starting point | https://pcbtool.net/sites/protoflow |
+| **Quilter** | quilter | Physics-driven reinforcement learning (not LLM) for full PCB layout/routing | https://pcbtool.net/sites/quilter |
+| **Schemalyzer** | schemalyzer | AI schematic analysis for EasyEDA designs | https://pcbtool.net/sites/schemalyzer |
+| **Schematik** | schematik | "The Cursor for hardware" — AI Hardware IDE, 100k+ users, $4.6M funding | https://pcbtool.net/sites/schematik |
+| **SnapMagic** | snapmagic | AI electronics copilot (formerly SnapEDA) — design, BOM, procurement | https://pcbtool.net/sites/snapmagic |
+| **Tinkered** | tinkered | AI hardware dev platform with 3D simulation and one-click deploy | https://pcbtool.net/sites/tinkered |
+| **Traceformer** | traceformer | AI PCB electrical design review against component datasheets | https://pcbtool.net/sites/traceformer |
+| **tscircuit** | tscircuit | World's first TypeScript code-defined hardware EDA (open source) | https://pcbtool.net/sites/tscircuit |
+| **ZeroOhm AI** | zeroohm-ai | AI PCB validation platform for schematic and layout stages (Beta) | https://pcbtool.net/sites/zeroohm-ai |
 
-**国产 EDA 阵容：**
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **立创 EDA Std** | jlceda | 国产在线 EDA 标杆，全球 533 万+ 工程师使用 |
-| **立创 EDA Pro** | jlceda-pro | 立创 EDA 专业版，支持超大型设计 |
-| **EasyEDA Std** | easyeda | 在线 EDA 国际版，EasyEDA 标准版 |
-| **EasyEDA Pro** | easyeda-pro | EasyEDA 专业版，面向企业用户 |
-| **捷配 EDA** | jp-eda | 云端 EDA 工具，对接捷配制造 |
-| **启云方原理图** | qiyunfang-schematic | 新凯来旗下国产 EDA |
-| **启云方 PCB** | qiyunfang-pcb | 国产 PCB 设计工具 |
-| **为昕 Jupiter 原理图** | vxintech-jupiter | 为昕科技原理图设计工具 |
-| **为昕 Mars PCB** | vxintech-mars | 为昕科技 PCB 设计工具 |
-| **为昕 Venus** | vxintech-venus | 为昕科技云端平台 |
-| **弘快 RedPCB** | redpcb | 弘快科技 PCB 设计工具 |
-| **弘快 RedPKG** | redpkg | 弘快科技封装设计工具 |
-| **华秋 EDA** | heroeda | 华秋电子 EDA 工具 |
-| **HiPCB** | hipcb | 树上信息科技 PCB 设计 |
-| **知造 EDA** | zhizao-eda | 国产 EDA 新秀 |
-| **云衡 EDA** | yunheng-eda | 国产云端 EDA |
-| **清越峰** | qingyuefeng | 国产 PCB 设计软件 |
-| **帆风顺 PCB** | sailwind | 国产 PCB 设计工具 |
-| **SunV EDA** | sunv-eda | 国产 EDA 平台 |
-| **Liatro EDA** | liatro-eda | 国产 EDA 设计工具 |
-| **VEE CAD** | veecad | 国产 EDA 工具 |
-
-**经典 / 历史工具（仍有参考价值）：**
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Protel 99SE** | protel-99se | 经典 PCB 设计软件，一代工程师的回忆 |
-| **P-CAD** | p-cad | Protel 早期的专业 PCB 设计工具 |
-| **PowerPCB** | powerpcb | Altium Designer 的前身之一 |
-| **Tango** | tango | 最早的 PCB 设计软件之一 |
-| **ACCEL EDA** | accel-eda | 经典 EDA 套件 |
-| **WinPCB** | winpcb | Windows 平台 PCB 设计 |
-| **AutoTrax DEX** | autotrax | Protel 早期版本 |
-| **CADSTAR** | cadstar | Zuken 经典 PCB 设计 |
-
-**开源 / 免费工具：**
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **KiCad** | kicad | 开源 EDA 首选，跨平台 |
-| **gEDA** | geda | Linux 平台开源 EDA 套件 |
-| **LibrePCB** | librepcb | 跨平台开源 EDA，易用性好 |
-| **Horizon EDA** | horizon-eda | 现代开源 EDA，界面精致 |
-| **Fritzing** | fritzing | 面向创客的开源 PCB 设计，面包板视图 |
-| **PCB-rnd** | pcb-rnd | 开源 PCB Layout 编辑器 |
-| **FreePCB** | freepcb | Windows 开源 PCB 设计 |
-| **FreePCB 2** | freepcb-2 | FreePCB 继任者 |
-| **XCircuit** | xcircuit | Unix/Linux 原理图绘制 |
-| **Osmond PCB** | osmond-pcb | Mac 平台 PCB 设计 |
-| **PCBMode** | pcbmode | 用代码生成 PCB 的开源工具 |
-| **Copper App** | copper-app | 现代开源 PCB 设计 |
-
-**其他专业/特色工具：**
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **SolidWorks PCB** | solidworks-pcb | 与 SolidWorks 机械设计集成的 PCB 工具 |
-| **Sprint Layout** | sprint-layout | 德国手动 PCB Layout 软件 |
-| **ExpressPCB** | expresspcb | 美国免费 PCB 设计+制板 |
-| **EAGLE** | eagle | 经典 PCB 设计（已整合至 Fusion 360） |
-| **ZenitPCB** | zenitpcb | 西班牙 PCB 设计工具 |
-| **PCB Artist** | pcb-artist | Advanced Circuits 免费 PCB 设计 |
-| **PCB123** | pcb123 | Sunstone 免费 PCB 设计 |
-| **ProfiCAD** | proficad | 德国电气原理图绘制 |
-| **sPlan** | splan | 德国原理图编辑器 |
-| **AACircuit** | aacircuit | 轻量级电路图绘制 |
-| **SmartScript PCB** | xsmartpr | 国产 PCB 设计工具 |
-| **SmartScript SCH** | xsmartsch | 国产原理图设计工具 |
-| **Pollex** | pollex | PCB 设计工具 |
-| **FidoCadJ** | fidocadj | 跨平台电路图绘制 |
-| **TinyCAD** | tinycad | 免费开源原理图编辑器 |
-| **Signex** | signex | 在线 PCB 设计工具 |
-
-**注**：由于篇幅限制，此处列出约 80 款代表性工具。完整 102 款工具请访问 PCBTool.Net 原理图&PCB 分类查看。
+> 🤖 If you want to understand the AI for EDA landscape in 2026, these 29 tools cover virtually every player.
 
 ---
 
-### 🌐 在线原理图 & PCB（15 款）
+### 🌐 Online Schematic & PCB (15 Tools)
 
-> 浏览器打开就能画板子，无需安装，方便快捷。
+Browser-based EDA tools — no installation required.
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **EasyEDA Std** | easyeda | 全球 533 万+ 工程师使用的在线 EDA |
-| **EasyEDA Pro** | easyeda-pro | EasyEDA 专业版，支持超大设计 |
-| **立创 EDA Std** | jlceda | 国产在线 EDA 标杆 |
-| **立创 EDA Pro** | jlceda-pro | 面向企业级用户的专业在线 EDA |
-| **PCBX** | pcbx | 在线 EDA 平台，内置实时 3D 预览 |
-| **嘉立创 ECAD** | jlc-ecad | 浏览器端电气工程设计工具 |
-| **捷配 EDA** | jp-eda | 云端 EDA，对接捷配制造 |
-| **Upverter** | upverter | Autodesk 协作式在线 PCB 设计 |
-| **OrCAD Cloud** | orcad-cloud | EMA Design 云端 OrCAD 平台 |
-| **Scheme-It** | scheme-it | DigiKey 免费在线原理图绘制 |
-| **Plinth** | plinth | 在线电子设计工具 |
-| **MeowCAD** | meowcad | 轻量级在线 PCB 设计 |
-| **SVG-PCB** | svg-pcb | 用 Illustrator/Inkscape 设计 PCB |
-| **TinyCAD** | tinycad | 免费开源原理图编辑器 |
-| **启云方原理图** | qiyunfang-schematic | 新凯来旗下国产在线原理图设计 |
-
----
-
-### 🔬 原理图仿真（43 款）
-
-> SPICE 仿真、数字仿真、混合信号仿真，从经典桌面工具到现代在线仿真平台。
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **LTspice** | ltspice | ADI 出品，电源仿真事实标准 |
-| **Multisim** | multisim | NI 出品，教学场景最常用 |
-| **PSpice** | pspice | Cadence 工业级 SPICE 仿真 |
-| **TINA-TI** | tina | TI 免费 SPICE 仿真器 |
-| **Micro-Cap** | micro-cap | 经典仿真神器（停止维护但仍可用） |
-| **QUCS** | qucs | 开源射频和电路仿真 |
-| **QUCS Studio** | qucsstudio | QUCS 增强版 |
-| **QSPICE** | qspice | Qorvo 新一代 SPICE 仿真器 |
-| **SIMetrix/SIMPLIS** | simetrix | 混合信号仿真，电源设计首选 |
-| **Proteus** | proteus | 支持单片机仿真的独特 EDA |
-| **DesignSpark Simulator** | designspark-simulator | RS Group 免费电路仿真 |
-| **PSIM** | psim | 电力电子仿真专用 |
-| **SimulIDE** | simulide | 开源电路仿真+单片机仿真 |
-| **GeckoCIRCUITS** | geckocircuits | 电力电子仿真，热耦合 |
-| **LogicWorks** | logicworks | 数字逻辑电路仿真 |
-| **Logisim** | logisim | 开源数字逻辑仿真 |
-| **DEEP** | deeds | 数字电路仿真教育工具 |
-| **HADES** | hades | 汉堡大学数字仿真系统 |
-| **Digital Works** | digital-works | 数字逻辑仿真 |
-| **Circuit Logix** | circuit-logix | 混合电路仿真 |
-| **Solve Elec** | solve-elec | 电路分析与仿真教育软件 |
-| **SmartSim** | smartsim | 数字逻辑仿真教育工具 |
-| **SuperSpice** | superspice | 高精度 SPICE 仿真 |
-| **PECS** | pecs | 便携式电路仿真 |
-| **ICircuit** | icircuit | Mac/iOS 电路仿真 |
-| **Multimedia Logic** | multimedia-logic | 教育用数字逻辑仿真 |
-| **Cedar Logic** | cedar-logic | 数字逻辑仿真 |
-| **ADS Software** | ads-software | 开源 SPICE 仿真 |
-| **Electric VLSI** | electric | VLSI 设计系统 |
-| **QSapecNG** | qsapecng | 电路分析与符号计算 |
-| **PSU Designer** | psu-designer | Duncan Amps 电源仿真 |
-| **PowerExpert** | powerexpert | 菊林科技电源仿真 |
-| **SiDesigner** | sidesigner | 菊林科技信号完整性设计 |
-| **EMArtist** | emartist | 菊林科技电磁仿真 |
-| **比昂芯 BCS** | btd-bcs | 国产电路仿真 |
-| **PulsonixSim** | pulsonixsim | Pulsonix 集成 SPICE 仿真 |
-| **普力仿真** | puliedu-sim | 在线教育仿真平台 |
-| **Infineon SPICE** | infineonspice | 英飞凌在线 SPICE 仿真 |
-| **McCAD 3SPICE** | mccad-3spice | McCAD SPICE 仿真 |
-| **Antares** | antares | 电路仿真工具 |
-| **SimOne** | simone | Eremex 电路仿真 |
-| **HADES Sim** | hades-sim | 数字逻辑仿真 |
-| **PECs Sim** | pecs-sim | 便携式电路仿真 |
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **EasyEDA Std** | easyeda | Browser-based PCB design, 5.33M+ engineers worldwide | https://pcbtool.net/sites/easyeda |
+| **EasyEDA Pro** | easyeda-pro | Professional-grade online EDA for large designs | https://pcbtool.net/sites/easyeda-pro |
+| **PCBX** | pcbx | Online EDA with real-time 3D preview | https://pcbtool.net/sites/pcbx |
+| **Qiyunfang Schematic** | qiyunfang-schematic | Chinese domestic EDA from Newkailai subsidiary | https://pcbtool.net/sites/qiyunfang-schematic |
+| **Upverter** | upverter | Autodesk's browser-based collaborative PCB design platform | https://pcbtool.net/sites/upverter |
+| **LCEDA Std** | jlceda | Chinese online EDA benchmark, integrated with JLCPCB manufacturing | https://pcbtool.net/sites/jlceda |
+| **LCEDA Pro** | jlceda-pro | Professional tier of LCEDA | https://pcbtool.net/sites/jlceda-pro |
+| **TinyCAD** | tinycad | Free open-source schematic editor for Windows | https://pcbtool.net/sites/tinycad |
+| **MeowCAD** | meowcad | Lightweight browser-based PCB design | https://pcbtool.net/sites/meowcad |
+| **OrCAD Cloud** | orcad-cloud | Cloud-based OrCAD from EMA Design Automation | https://pcbtool.net/sites/orcad-cloud |
+| **Scheme It** | scheme-it | Free online schematic tool by DigiKey | https://pcbtool.net/sites/scheme-it |
+| **JLC ECAD** | jlc-ecad | Browser-based electrical engineering design tool | https://pcbtool.net/sites/jlc-ecad |
+| **Plinth** | plinth | Electronic design tool | https://pcbtool.net/sites/plinth |
+| **SVG-PCB** | svg-pcb | Design PCBs using vector graphics tools (Illustrator/Inkscape) | https://pcbtool.net/sites/svg-pcb |
+| **Jiepei EDA** | jp-eda | Cloud-based EDA from Jiepei manufacturing | https://pcbtool.net/sites/jp-eda |
 
 ---
 
-### ⚡ PCB 仿真（25 款）
+### 👁️ Online Viewer (21 Tools)
 
-> 信号完整性（SI）、电源完整性（PI）、电磁兼容（EMC/EMI）、热仿真——流片前的最后一关。
+View and compare PCB/Gerber files directly in your browser — no software installs.
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Ansys HFSS** | ansys-hfss | 高端三维电磁仿真标杆 |
-| **Ansys SIwave** | ansys-siwave | PCB 级 SI/PI 仿真 |
-| **CST Studio Suite** | cst-studio-suite | 达索系统三维电磁仿真 |
-| **Cadence Sigrity** | cadence-sigrity | Cadence SI/PI 仿真平台 |
-| **Keysight ADS** | keysight-ads | 射频与微波电路仿真 |
-| **Siemens HyperLynx** | hyperlynx | Siemens SI/PI/EMC 分析 |
-| **PathWave** | pathwave | Keysight 先进设计系统 |
-| **MATLAB SI Toolbox** | matlab-si-toolbox | MATLAB 信号完整性工具箱 |
-| **Polar Si9000** | polar-si9000 | PCB 阻抗计算行业标准 |
-| **Simbeor** | simbeor | 高速 PCB 信号完整性分析 |
-| **PyBERT** | pybert | 开源 SerDes 通道仿真 |
-| **SuperEM** | superem | 法拉第 dynamics 电磁仿真 |
-| **比昂芯 ABS** | btd-abs | 国产先进封装仿真 |
-| **比昂芯 Thermosim** | btd-thermosim | 国产热仿真 |
-| **弘快 RedSIM Auto** | redsim-auto | 弘快科技自动仿真平台 |
-| **PhySim ACEM** | physim-acem | 国产电磁仿真 |
-| **PhySim DC** | physim-dc | 国产直流分析 |
-| **PhySim ET** | physim-et | 国产电热协同仿真 |
-| **PhySim TurboT** | physim-turbot | 国产热仿真加速 |
-| **芯和 Janus** | janus | 芯和半导体仿真工具 |
-| **芯和 Hermes 3D** | hermes-3d | 芯和 3D 仿真 |
-| **芯和 Notus** | notus | 芯和仿真工具 |
-| **为昕 EM Sim** | vxintech-em-sim | 为昕科技电磁仿真 |
-| **为昕 SI Sim** | vxintech-si-sim | 为昕科技信号完整性仿真 |
-| **ASCENEXT** | ascenext | 菊林科技 PCB 仿真 |
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Altium 365 Viewer** | altium-365-viewer | Free online PCB viewer by Altium | https://pcbtool.net/sites/altium-365-viewer |
+| **Altium Gerber Compare** | altium-gerber-compare | Free online Gerber diff tool by Altium | https://pcbtool.net/sites/altium-gerber-compare |
+| **AiEma Online 3D Gerber Viewer** | aiema-viewer | Cloud-based PCB design file visualization | https://pcbtool.net/sites/aiema-viewer |
+| **EasyEDA Gerber Viewer** | easyeda-gerber-viewer | Official free online Gerber viewer from EasyEDA | https://pcbtool.net/sites/easyeda-gerber-viewer |
+| **Gerber Analyzer** | gerber-analyzer | Free online PCB analysis with thermal, EMI, impedance, and DRC | https://pcbtool.net/sites/gerber-analyzer |
+| **Gerber Tools** | gerber-tools | Free online Gerber file processing toolkit | https://pcbtool.net/sites/gerber-tools |
+| **Gerbtrace** | gerbtrace | Online PCB manufacturing data review for NPI | https://pcbtool.net/sites/gerbtrace |
+| **Gerber Viewer** | gerber-viewer-com | Simple web-based Gerber and drill file viewer | https://pcbtool.net/sites/gerber-viewer-com |
+| **Huaqiu Viewer** | hq-viewer | Online PCB and schematic file viewer by Huaqiu | https://pcbtool.net/sites/hq-viewer |
+| **IPC-2581 Tools** | ipc2581-tools | Free online IPC-2581 and ODB++ viewer/editor | https://pcbtool.net/sites/ipc2581-tools |
+| **JLC 3D/2D Viewer** | jlc-3d-viewer | Free online 3D model and 2D drawing viewer by JLCPCB | https://pcbtool.net/sites/jlc-3d-viewer |
+| **JLC DFM** | jlc-dfm | Free PCB/PCBA manufacturability analysis tool | https://pcbtool.net/sites/jlc-dfm |
+| **NextPCB Gerber Viewer** | nextpcb-gerber-viewer | Free online Gerber viewer with DFM analysis | https://pcbtool.net/sites/nextpcb-gerber-viewer |
+| **Online 3D Viewer** | online-3d-viewer | Web-based 3D model viewer | https://pcbtool.net/sites/online-3d-viewer |
+| **Online GenCAD Viewer** | online-gencad-viewer | Free online GenCAD (.cad) file viewer | https://pcbtool.net/sites/online-gencad-viewer |
+| **Online Gerber Viewer** | online-gerber-viewer | Lightweight online Gerber viewer built on tracespace | https://pcbtool.net/sites/online-gerber-viewer |
+| **Online Gerber Viewer** | onlinegerberviewer | Free online Gerber file viewer | https://pcbtool.net/sites/onlinegerberviewer |
+| **Tracespace View** | tracespace-view | Open-source online Gerber rendering and viewing tool | https://pcbtool.net/sites/tracespace-view |
+| **Ucamco Gerber Viewer** | ucamco-gerber-viewer | Official online viewer by the creators of the Gerber format | https://pcbtool.net/sites/ucamco-gerber-viewer |
+| **Wasm Gerber Viewer** | wasm-gerber-viewer | High-performance online Gerber viewer using WASM + WebGL2 | https://pcbtool.net/sites/wasm-gerber-viewer |
+| **Web Gerber** | web-gerber | Lightweight online Gerber viewer by Mayhew Labs | https://pcbtool.net/sites/web-gerber |
 
 ---
 
-### 🔍 设计审查 & DFM（33 款）
+### 📋 Schematic & PCB (102 Tools) — Largest Category
 
-> Gerber 查看、设计规则检查、DFM 分析——流片前最后一道防线。
+The foundation of the directory — every EDA tool you've heard of and many you haven't. Split into international, Chinese domestic, and classic/retro tools.
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Valor NPI** | valor-npi | Siemens 工业级 PCB 可制造性验证 |
-| **CAM350** | cam350 | DownStream 经典 PCB 制造检查 |
-| **GC-Prevue** | gcode-tools | 经典 Gerber 查看器 |
-| **Gerbv** | gerbv | 开源 Gerber 查看器 |
-| **ViewMate** | viewmate | Pentalogix Gerber 查看编辑 |
-| **FlatCAM** | flatcam | 开源 PCB 制造 CAM 工具 |
-| **ZofzPCB** | zofzpcb | 免费 3D Gerber 查看器 |
-| **OpenBoardView** | openboardview | 开源 PCB 视图查看 |
-| **CircuitCAM** | circuitcam | PCB 制造 CAM 工具 |
-| **Fab 3000** | fab-3000 | PCB 制造数据准备 |
-| **嘉立创 DFM** | jlc-dfm | 嘉立创免费 DFM 分析 |
-| **嘉立创 CAM** | jlc-cam | 嘉立创 CAM 工具 |
-| **嘉立创 3D Viewer** | jlc-3d-viewer | 嘉立创 3D 查看 |
-| **华秋 DFM** | hq-dfm | 华秋 DFM 可制造性分析 |
-| **捷配 DFM** | jiepei-dfm | 捷配在线 DFM 检查 |
-| **iPCB DFM** | ipcb-dfm | PCB 制造 DFM 分析 |
-| **AiEma** | aiema | 在线 3D Gerber 查看 |
-| **望友 DFM** | vayo-dfm | 望友 DFM 可制造性设计 |
-| **望友 CAM365** | vayo-cam365 | 望友 CAM 工具 |
-| **望友 View Expert** | vayo-view-expert | 望友设计审查 |
-| **为昕 Review** | vxintech-review | 为昕在线评审工具 |
-| **弘快 RedDFM** | reddfm | 弘快 DFM 分析 |
-| **弘快 RedNPI** | rednpi | 弘快 NPI 管理 |
-| **弘快 RedCAM** | redcam | 弘快 CAM 工具 |
-| **弘快 RedReview** | redreview | 弘快评审系统 |
-| **BluePrint-PCB** | blueprint-pcb | Siemens PCB 文档制作 |
-| **QuadView** | quadview | Gerber 四视图查看器 |
-| **PentaLogix ViewMate** | viewmate | PCB 设计审查 |
-| **GerbView** | gerbview | 独立 Gerber 查看 |
-| **VisualPlace** | visualplace | 可视化元件布局审查 |
-| **ProntoVIEW** | prontoview-markup | PCB 设计标注审查 |
-| **MCN Gerber Viewer** | mcn-gerber-viewer | 免费 Gerber 查看器 |
-| **InterCAD Reader** | intercad-reader | PCB 文件查看器 |
+**International Standards:**
 
----
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Altium Designer** | altium | Leading commercial PCB design platform | https://pcbtool.net/sites/altium |
+| **Cadence Allegro X** | allegro-x | Enterprise PCB design from Cadence | https://pcbtool.net/sites/allegro-x |
+| **OrCAD X Capture** | orcad-x-capture | Industry-standard schematic capture | https://pcbtool.net/sites/orcad-x-capture |
+| **OrCAD X PCB** | orcad-x-pcb | Professional PCB layout from Cadence | https://pcbtool.net/sites/orcad-x-pcb |
+| **Siemens Xpedition** | expedition | Industrial-grade PCB design flow | https://pcbtool.net/sites/expedition |
+| **Siemens PADS** | pads | Mid-range PCB design from Siemens | https://pcbtool.net/sites/pads |
+| **Siemens DxDesigner** | dxdesigner | Schematic capture from Siemens | https://pcbtool.net/sites/dxdesigner |
+| **KiCad** | kicad | The dominant open-source EDA, v8 with advanced features | https://pcbtool.net/sites/kicad |
+| **Autodesk EAGLE** | eagle | Popular PCB design with Fusion 360 integration | https://pcbtool.net/sites/eagle |
+| **Proteus** | proteus | Unique MCU simulation + PCB design | https://pcbtool.net/sites/proteus |
+| **Pulsonix** | pulsonix | Professional PCB design software | https://pcbtool.net/sites/pulsonix |
+| **DipTrace** | diptrace | User-friendly PCB design with low learning curve | https://pcbtool.net/sites/diptrace |
+| **CircuitMaker** | circuitmaker | Altium's free community PCB design tool | https://pcbtool.net/sites/circuitmaker |
+| **CircuitStudio** | circuitstudio | Altium's mid-range PCB design tool | https://pcbtool.net/sites/circuitstudio |
+| **Target 3001** | target-3001 | German all-in-one EDA system | https://pcbtool.net/sites/target-3001 |
+| **DesignSpark PCB** | designspark-pcb | Free PCB design from RS Group | https://pcbtool.net/sites/designspark-pcb |
+| **SolidWorks PCB** | solidworks-pcb | MCAD-ECAD integration with SolidWorks | https://pcbtool.net/sites/solidworks-pcb |
+| **Zuken CR-8000** | cr-8000 | High-end PCB design for advanced packaging | https://pcbtool.net/sites/cr-8000 |
+| **Zuken CR-5000** | cr-5000 | Professional PCB design suite | https://pcbtool.net/sites/cr-5000 |
+| **LibrePCB** | librepcb | Cross-platform open-source EDA | https://pcbtool.net/sites/librepcb |
+| **Horizon EDA** | horizon-eda | Modern open-source PCB design | https://pcbtool.net/sites/horizon-eda |
+| **gEDA** | geda | Linux-based open-source EDA suite | https://pcbtool.net/sites/geda |
+| **Fritzing** | fritzing | Beginner-friendly PCB design for makers | https://pcbtool.net/sites/fritzing |
+| **ExpressPCB** | expresspcb | Simple Windows PCB design tool | https://pcbtool.net/sites/expresspcb |
 
-### 🧠 在线查看器（21 款）
+**Chinese Domestic EDA:**
 
-> 无需安装任何软件，浏览器中即可查看 PCB/Gerber 文件。
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **LCEDA Std** | jlceda | Chinese online EDA benchmark, 5.33M+ users | https://pcbtool.net/sites/jlceda |
+| **LCEDA Pro** | jlceda-pro | Professional tier for large-scale designs | https://pcbtool.net/sites/jlceda-pro |
+| **EasyEDA Std** | easyeda | International version of the same platform | https://pcbtool.net/sites/easyeda |
+| **EasyEDA Pro** | easyeda-pro | Enterprise tier | https://pcbtool.net/sites/easyeda-pro |
+| **Jiepei EDA** | jp-eda | Cloud EDA with Jiepei manufacturing integration | https://pcbtool.net/sites/jp-eda |
+| **Qiyunfang Schematic** | qiyunfang-schematic | Newkailai subsidiary domestic EDA | https://pcbtool.net/sites/qiyunfang-schematic |
+| **Qiyunfang PCB** | qiyunfang-pcb | Chinese PCB design tool | https://pcbtool.net/sites/qiyunfang-pcb |
+| **VXintech Jupiter** | vxintech-jupiter | VXintech schematic design | https://pcbtool.net/sites/vxintech-jupiter |
+| **VXintech Mars** | vxintech-mars | VXintech PCB design | https://pcbtool.net/sites/vxintech-mars |
+| **VXintech Venus** | vxintech-venus | VXintech cloud platform | https://pcbtool.net/sites/vxintech-venus |
+| **RedPCB** | redpcb | RedEDA PCB design tool | https://pcbtool.net/sites/redpcb |
+| **RedPKG** | redpkg | RedEDA packaging design | https://pcbtool.net/sites/redpkg |
+| **Huaqiu EDA** | heroeda | Huaqiu Electronics EDA | https://pcbtool.net/sites/heroeda |
+| **HiPCB** | hipcb | PCB design by ShuShang InfoTech | https://pcbtool.net/sites/hipcb |
+| **Zhizao EDA** | zhizao-eda | Chinese EDA newcomer | https://pcbtool.net/sites/zhizao-eda |
+| **Yunheng EDA** | yunheng-eda | Chinese cloud EDA platform | https://pcbtool.net/sites/yunheng-eda |
+| **Qingyuefeng** | qingyuefeng | Chinese PCB design software | https://pcbtool.net/sites/qingyuefeng |
+| **Sailwind PCB** | sailwind | Chinese PCB design tool | https://pcbtool.net/sites/sailwind |
+| **SunV EDA** | sunv-eda | Chinese EDA platform | https://pcbtool.net/sites/sunv-eda |
+| **Liatro EDA** | liatro-eda | Chinese EDA design tool | https://pcbtool.net/sites/liatro-eda |
+| **VEE CAD** | veecad | Chinese EDA tool | https://pcbtool.net/sites/veecad |
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Altium 365 Viewer** | altium-365-viewer | Altium 免费在线 PCB 查看器 |
-| **Altium Gerber Compare** | altium-gerber-compare | 在线 Gerber 比较，无需注册 |
-| **AiEma 3D Gerber Viewer** | aiema-viewer | 在线 3D Gerber 可视化 |
-| **EasyEDA Gerber Viewer** | easyeda-gerber-viewer | 嘉立创免费在线 Gerber 查看 |
-| **Gerber Analyzer** | gerber-analyzer | 多合一在线 PCB 分析：查看+热仿+阻抗+DRC |
-| **Gerber Tools** | gerber-tools | 免费在线 Gerber 工具集 |
-| **Gerbtrace** | gerbtrace | 在线 PCB 制造数据审查与 NPI |
-| **Gerber Viewer** | gerber-viewer-com | 网页端 Gerber/钻孔文件查看 |
-| **华秋设计查看器** | hq-viewer | 华秋在线 PCB/原理图查看 |
-| **IPC-2581 Tools** | ipc2581-tools | IPC-2581/ODB++ 在线查看编辑 |
-| **嘉立创 DFM** | jlc-dfm | 免费 PCB&PCBA 可制造性分析 |
-| **嘉立创 3D/2D 查看器** | jlc-3d-viewer | 嘉立创在线查看器 |
-| **NextPCB Gerber Viewer** | nextpcb-gerber-viewer | NextPCB 在线查看+DFM |
-| **Online 3D Viewer** | online-3d-viewer | 网页版 3D 模型查看 |
-| **Online GenCAD Viewer** | online-gencad-viewer | 免费在线 GenCAD 查看 |
-| **Online Gerber Viewer** | online-gerber-viewer | 基于 tracespace 的轻量查看 |
-| **Online Gerber Viewer** | onlinegerberviewer | 免费在线 Gerber 查看 |
-| **Tracespace View** | tracespace-view | 开源 Gerber 在线渲染查看 |
-| **Ucamco Gerber Viewer** | ucamco-gerber-viewer | Gerber 标准制定者官方工具 |
-| **Wasm Gerber Viewer** | wasm-gerber-viewer | WASM+WebGL2 高性能在线查看 |
-| **Web Gerber** | web-gerber | Mayhew Labs 轻量在线查看 |
+**Classic / Retro (Still Worth Knowing):**
+
+Protel 99SE, P-CAD, PowerPCB, Tango, ACCEL EDA, WinPCB, BoardMaker3, BSch3V, CADINT, CADSTAR, Caneda, CIDESS, CIRCAD, Douglas CAD/CAM, Easy-PC, EDA2002, EDWin, EDWinXP, ExpressSCH, FidoCadJ, FreePCB, FreePCB 2, JumboCAD, Layo1 PCB, Layout Editor, Merlin PCB, MyNetPCB, Open Schematic Capture, Osmond PCB, Pad2Pad, Patchr, PCSchematic, PCB-3-0, PCB Artist, PCB Creator, PCB Elegance, PCB-rnd, PCB123, PCBMode, PCBWeb, Proficad, SPlan, Sprint Layout, Signex, UniVista Archer PCB/Schematic, Veroroute, Vutrax, WinCircuit, WinQCAD, XCircuit, ZenitPCB, Visionics, Quadcept, XLDesigner, Copper App, Circuit Wizard, PCB Investigator, PCB Droid, Pollex, XSmartPR, XSmartSch, McCAD Schematics Plus, McCAD PCB ST
 
 ---
 
-### 💻 在线原理图仿真（23 款）
+### 🔬 Online Schematic Simulation (23 Tools)
 
-> 浏览器中运行 SPICE/数字仿真，适合教学和快速验证。
+Browser-based circuit simulators — run SPICE and digital simulations without installing anything.
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **CircuitLab** | circuitlab | 在线电路仿真，交互式教学 |
-| **CircuitJS** | circuitjs | 开源在线电路仿真，零门槛 |
-| **Circuit Simulator** | circuit-simulator | 在线电路仿真（Paul Falstad） |
-| **DC/AC Lab** | dcaclab | 在线虚拟电路实验室 |
-| **EveryCircuit** | everycircuit | 手机端电路仿真，触控交互 |
-| **Multisim Live** | multisim-live | NI 在线电路仿真 |
-| **EDA Playground** | eda-playground | 在线 VHDL/Verilog 编辑仿真 |
-| **Wokwi** | wokwi | 在线 Arduino/ESP32 仿真 |
-| **Simulator.io** | simulatorio | 在线 SPICE 仿真 |
-| **理想电路** | ideal-circuit | 在线电路仿真 |
-| **EECircuit** | eecircuit | 在线电子电路仿真 |
-| **SmartEDA** | smarteda | 在线 EDA 仿真平台 |
-| **OpenCircuits** | opencircuits | 开源在线电路设计 |
-| **Electric EDA** | electric-eda | 在线电子设计自动化 |
-| **eSim** | esim | FOSSEE 开源 EDA |
-| **Cirkit Designer** | cirkit-designer | AI 驱动在线电路设计与仿真 |
-| **Velxio** | velxio | 在线原理图仿真 |
-| **Digital Circuit Design** | digital-circuit-design | 在线数字电路设计 |
-| **Logic Gate Sim** | logic-gate-sim | 在线逻辑门仿真 |
-| **Infineon SPICE** | infineonspice | 英飞凌在线 SPICE 仿真 |
-| **PICSimLab** | picsimlab | 在线 PIC 单片机仿真 |
-| **Transim PSD** | transim-psd | 在线电源系统设计 |
-| **Circuit Mod** | circuit-mod | 在线电路仿真 |
-
----
-
-### 🧮 计算工具（14 款）
-
-> PCB 设计中的各种工程计算小工具集。
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Saturn PCB Toolkit** | saturn-pcb-toolkit | PCB 工程计算瑞士军刀 |
-| **Polar Si9000** | polar-si9000 | 阻抗计算行业标准 |
-| **TI Webench** | webench | TI 电源/时钟设计工具 |
-| **ADI Design Tools** | adi-tools | ADI 在线设计工具集 |
-| **TI Design Tools** | ti-tools | TI 在线设计工具 |
-| **MPS Design Tools** | mps-tools | MPS 电源设计工具 |
-| **嘉立创阻抗计算** | jlc-impedance | 嘉立创在线阻抗计算 |
-| **Calctown** | calctown | 在线工程计算器集合 |
-| **Ekalk** | ekalk | 电子工程计算器 |
-| **Electronics Assistant** | electronics-assistant | 离线电子计算工具 |
-| **Coil Designer** | coil-designer | 线圈设计计算 |
-| **GAL-ANA** | gal-ana | 模拟电路计算 |
-| **Olimex Tools** | olimex-tools | Olimex PCB 计算工具 |
-| **Tigees FPC** | tigees-fpc-calculators | FPC 设计计算工具 |
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **CircuitLab** | circuitlab | Professional online schematic editor + SPICE simulator | https://pcbtool.net/sites/circuitlab |
+| **CircuitJS** | circuitjs | Open-source browser circuit simulator, very popular in education | https://pcbtool.net/sites/circuitjs |
+| **Circuit Simulator** | circuit-simulator | Web-based analog/digital circuit simulation | https://pcbtool.net/sites/circuit-simulator |
+| **Cirkit Designer** | cirkit-designer | AI-powered online circuit design with Arduino/ESP32 firmware simulation | https://pcbtool.net/sites/cirkit-designer |
+| **DC/AC Lab** | dcaclab | Online virtual electronics lab | https://pcbtool.net/sites/dcaclab |
+| **EDA Playground** | eda-playground | Online Verilog/VHDL/Spice editor and simulator | https://pcbtool.net/sites/eda-playground |
+| **EveryCircuit** | everycircuit | Interactive animated circuit simulator | https://pcbtool.net/sites/everycircuit |
+| **Falstad's Circuit Simulator** | circuit-mod | Java/JS-based interactive circuit simulation | https://pcbtool.net/sites/circuit-mod |
+| **IdealCircuit** | ideal-circuit | Real-time circuit simulation and analysis | https://pcbtool.net/sites/ideal-circuit |
+| **Infineon SPICE** | infineonspice | Infineon's online SPICE simulator | https://pcbtool.net/sites/infineonspice |
+| **Logic Gate Simulator** | logic-gate-sim | Simple online digital logic simulator | https://pcbtool.net/sites/logic-gate-sim |
+| **MultiSim Live** | multisim-live | NI's browser-based circuit simulation | https://pcbtool.net/sites/multisim-live |
+| **OpenCircuits** | opencircuits | Interactive digital logic simulator | https://pcbtool.net/sites/opencircuits |
+| **PICSimLab** | picsimlab | PIC microcontroller simulator with peripherals | https://pcbtool.net/sites/picsimlab |
+| **Simulator.io** | simulatorio | Online circuit simulator for learning | https://pcbtool.net/sites/simulatorio |
+| **SmartEDA** | smarteda | Online EDA with simulation capabilities | https://pcbtool.net/sites/smarteda |
+| **TINA Online** | transim-psd | Online analog/digital/mcu circuit simulation | https://pcbtool.net/sites/transim-psd |
+| **Velxio** | velxio | Browser-based electronics lab and simulation | https://pcbtool.net/sites/velxio |
+| **Wokwi** | wokwi | Online ESP32/Arduino/RPi Pico simulator | https://pcbtool.net/sites/wokwi |
+| **Digital Circuit Design** | digital-circuit-design | Online digital logic design and simulation | https://pcbtool.net/sites/digital-circuit-design |
+| **Electric EDA** | electric-eda | Web-based EDA with simulation | https://pcbtool.net/sites/electric-eda |
+| **eSim** | esim | Open-source EDA by IIT Bombay | https://pcbtool.net/sites/esim |
+| **EECircuit** | eecircuit | Online circuit simulator | https://pcbtool.net/sites/eecircuit |
 
 ---
 
-### 🧩 元器件与 3D 模型（14 款）
+### ⚡ Schematic Simulation (43 Tools)
 
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **SnapEDA** | snapeda | 全球最大免费 CAD 模型库 |
-| **Ultra Librarian** | ultralibrarian | 元器件封装库生成工具 |
-| **Component Search Engine** | componentsearchengine | 元器件搜索引擎 |
-| **PCB PartZ** | pcbpartz | 元器件信息查询 |
-| **弘快 RedLIB** | redlib | 弘快元器件库 |
-| **为昕 Library** | vxintech-library | 为昕元器件库管理 |
-| **Genesis XLIB** | genesis-xlib | 芯和半导体封装库 |
-| **Allegro Library Creator** | allegro-library-creator | Cadence 封装库创建 |
-| **3D ContentCentral** | 3d-contentcentral | 3D 机械模型库 |
-| **TraceParts** | traceparts | 工业 3D 零件库 |
-| **GrabCAD** | grabcad | 工程师 3D 模型社区 |
-| **博创库** | bocangku | 国产元器件封装库 |
-| **Footprintku Studio** | footprintku | 在线封装生成工具 |
-| **PCB Libraries** | pcb-libraries | 专业封装库工具 |
+Desktop SPICE simulators and circuit analysis tools for professional use.
 
----
-
-### 🛤️ 布局布线（10 款）
-
-> 专业自动布线器和拓扑优化工具。
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **FreeRouting** | freerouting | 开源自动布线器 |
-| **TopoR** | topor | 俄罗斯拓扑自动布线 |
-| **Electra** | electra | EDA 集成自动布线 |
-| **Bartels AutoRouter** | bartels-autorouter | 专业自动布线引擎 |
-| **McCAD AutoRouter** | mccad-autorouter | McCAD 自动布线 |
-| **PCB Auto Router** | pcb-auto-router | 在线自动布线 |
-| **QAutoRouter** | qautorouter | 开源自动布线 |
-| **DeepPCB** | deeppcb | AI 深度学习自动布线 |
-| **BoardPerfect** | boardperfect | PCB 布局优化 |
-| **SimplifyDA** | simplifyda | PCB 设计自动化 |
-
----
-
-### 👥 硬件社区（29 款）
-
-> 全球硬件开发者聚集地，技术交流与项目分享。
-
-| 工具 | Slug | 一句话简介 |
-|------|------|-----------|
-| **Hackaday.io** | hackaday-io | 全球最大硬件创客社区 |
-| **Hackster.io** | hackster | 项目导向硬件社区 |
-| **Instructables** | instructables | DIY 项目分享平台 |
-| **Reddit r/PCB** | reddit-pcb | Reddit PCB 讨论版块 |
-| **EEVblog 论坛** | eevblog | 硬件工程师热门论坛 |
-| **Element14** | element14 | 全球工程师社区 |
-| **All About Circuits** | all-about-circuits | 电路设计技术社区 |
-| **Electronics Lab** | electronics-lab | 电子项目与教程 |
-| **Electromaker** | electromaker | 创客项目分享 |
-| **Electronics Hub** | electronicshub | 电子技术教程 |
-| **Open Hardware** | open-hardware | 开源硬件项目平台 |
-| **Open Electronics** | open-electronics | 开源电子项目 |
-| **Kitspace** | kitspace | 开源硬件项目分享 |
-| **Maker Pro** | maker-pro | 硬件创业者社区 |
-| **DigiKey Maker** | digikey-maker | DigiKey 创客社区 |
-| **Circuit Maker Hubs** | circuit-maker-hubs | Altium 硬件社区 |
-| **Open Compute Project** | open-compute-project | 开放计算项目 |
-| **嘉立创社区** | oshwhub | 立创开源硬件平台 |
-| **立创社区** | oshwlab | 立创硬件社区 |
-| **华秋开发者社区** | hq-oshw | 华秋开源硬件社区 |
-| **电子产品世界** | eepw | 中文电子技术媒体 |
-| **电子工程世界** | eeworld | 中文电子工程社区 |
-| **与非网** | eefocus | 中文电子技术社区 |
-| **21ic 电子网** | 21ic | 中文电子工程师社区 |
-| **EETree** | eetree | 电子技术博客 |
-| **Elektroda** | elektroda | 波兰电子社区 |
-| **嘉立创论坛** | jlc-bbs | 嘉立创用户论坛 |
-| **电路城** | elecfans | 中文电路技术社区 |
-| **硬创社** | yingchuangshe | 中文硬件创业社区 |
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **LTspice** | ltspice | The de facto standard for power supply simulation (Analog Devices) | https://pcbtool.net/sites/ltspice |
+| **PSpice** | pspice | Industry-standard SPICE simulator (Cadence) | https://pcbtool.net/sites/pspice |
+| **MultiSim** | multisim | NI's circuit simulation, widely used in education | https://pcbtool.net/sites/multisim |
+| **Micro-Cap** | micro-cap | Veteran SPICE simulator (discontinued but still excellent) | https://pcbtool.net/sites/micro-cap |
+| **QUCS** | qucs | Open-source circuit simulator with RF capabilities | https://pcbtool.net/sites/qucs |
+| **QUCS-S** | qucsstudio | QUCS with SPICE backend | https://pcbtool.net/sites/qucsstudio |
+| **QSPICE** | qspice | Modern SPICE simulator by Qorvo | https://pcbtool.net/sites/qspice |
+| **SIMetrix** | simetrix | Mixed-mode circuit simulation | https://pcbtool.net/sites/simetrix |
+| **TINA-TI** | tina | TI's SPICE-based analog simulation | https://pcbtool.net/sites/tina |
+| **SimOne** | simone | Circuit simulation tool | https://pcbtool.net/sites/simone |
+| **PSIM** | psim | Power electronics simulation specialist | https://pcbtool.net/sites/psim |
+| **SIMULIDE** | simulide | Real-time electronics simulator | https://pcbtool.net/sites/simulide |
+| **Proteus** | proteus | Unique MCU + circuit co-simulation | https://pcbtool.net/sites/proteus |
+| **DesignSpark Simulator** | designspark-simulator | RS Group's circuit simulator | https://pcbtool.net/sites/designspark-simulator |
+| **LogicWorks** | logicworks | Digital logic simulation and design | https://pcbtool.net/sites/logicworks |
+| **Logisim** | logisim | Educational digital logic simulator | https://pcbtool.net/sites/logisim |
+| **HADES** | hades | Java-based hardware simulation framework | https://pcbtool.net/sites/hades |
+| **SMARTsim** | smartsim | Digital circuit simulation | https://pcbtool.net/sites/smartsim |
+| **Solve Elec** | solve-elec | Educational circuit analysis | https://pcbtool.net/sites/solve-elec |
+| **Circuit Logix** | circuit-logix | Professional circuit simulation suite | https://pcbtool.net/sites/circuit-logix |
+| **Pulsonix Simulation** | pulsonixsim | SPICE simulation integrated with Pulsonix PCB | https://pcbtool.net/sites/pulsonixsim |
+| **SIMONE** | simone | Analog circuit simulation | https://pcbtool.net/sites/simone |
+| **Deeds** | deeds | Digital electronics education suite | https://pcbtool.net/sites/deeds |
+| **GeckoCircuits** | geckocircuits | Circuit simulation and PCB design | https://pcbtool.net/sites/geckocircuits |
+| **McCAD 3SPICE** | mccad-3spice | SPICE simulation engine | https://pcbtool.net/sites/mccad-3spice |
+| **ICircuit** | icircuit | iPad/iPhone circuit simulator | https://pcbtool.net/sites/icircuit |
+| **Superspice** | superspice | Analog/mixed-signal SPICE simulation | https://pcbtool.net/sites/superspice |
+| **PowerExpert** | powerexpert | Power supply design and simulation | https://pcbtool.net/sites/powerexpert |
+| **PSU Designer** | psu-designer | Power supply unit circuit design | https://pcbtool.net/sites/psu-designer |
+| **SIDesigner** | sidesigner | Signal integrity pre-layout analysis | https://pcbtool.net/sites/sidesigner |
+| **EMArtist** | emartist | EM simulation tool | https://pcbtool.net/sites/emartist |
+| **Antares** | antares | Antares circuit simulation | https://pcbtool.net/sites/antares |
+| **PECS** | pecs | Educational circuit simulation | https://pcbtool.net/sites/pecs |
+| **PuliEdu Sim** | puliedu-sim | Online circuit simulator | https://pcbtool.net/sites/puliedu-sim |
+| **QsApeNcG** | qsapecng | Open-source analog circuit analysis | https://pcbtool.net/sites/qsapecng |
+| **BTD BCS** | btd-bcs | BTD circuit simulation | https://pcbtool.net/sites/btd-bcs |
+| **Cedar Logic** | cedar-logic | Digital logic simulator | https://pcbtool.net/sites/cedar-logic |
+| **ADS Software** | ads-software | Analog/digital circuit simulation | https://pcbtool.net/sites/ads-software |
+| **Digital Works** | digital-works | Digital circuit simulation | https://pcbtool.net/sites/digital-works |
+| **Electric** | electric | VLSI design system | https://pcbtool.net/sites/electric |
+| **Logicly** | logicly | Educational logic gate simulator | https://pcbtool.net/sites/logicly |
+| **Multimedia Logic** | multimedia-logic | Educational digital logic design | https://pcbtool.net/sites/multimedia-logic |
+| **SmartSim** | smartsim | Digital circuit simulation tool | https://pcbtool.net/sites/smartsim |
 
 ---
 
-## 四、特色功能深度体验
+### 🛡️ PCB Simulation (25 Tools)
 
-### 🔍 智能搜索
-首页搜索框支持**中英文实时过滤**，输入 "ESP32" 或 "仿真" 即可看到匹配结果。URL 自动更新 `?q=` 参数，支持直接打开 `/?q=kicad` 自动搜索。
+Signal integrity, power integrity, EM, and thermal simulation tools.
 
-### 🌏 全站双语
-每个工具都有**独立的英文和中文详情页**：
-- 英文：`https://pcbtool.net/sites/kicad.html`
-- 中文：`https://pcbtool.net/zh-cn/sites/kicad.html`
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Ansys HFSS** | ansys-hfss | Gold standard for 3D electromagnetic simulation | https://pcbtool.net/sites/ansys-hfss |
+| **Ansys SIwave** | ansys-siwave | Power integrity and EMI analysis | https://pcbtool.net/sites/ansys-siwave |
+| **Cadence Sigrity** | cadence-sigrity | SI/PI analysis for PCB and IC packaging | https://pcbtool.net/sites/cadence-sigrity |
+| **CST Studio Suite** | cst-studio-suite | 3D EM simulation (Dassault Systèmes) | https://pcbtool.net/sites/cst-studio-suite |
+| **Keysight ADS** | keysight-ads | Advanced Design System for RF/microwave | https://pcbtool.net/sites/keysight-ads |
+| **HyperLynx** | hyperlynx | SI/PI analysis from Siemens | https://pcbtool.net/sites/hyperlynx |
+| **Polar Si9000** | polar-si9000 | PCB impedance field solver | https://pcbtool.net/sites/polar-si9000 |
+| **PyBERT** | pybert | Python-based bit error rate tester | https://pcbtool.net/sites/pybert |
+| **Simbeor** | simbeor | Electromagnetic signal integrity software | https://pcbtool.net/sites/simbeor |
+| **MATLAB SI Toolbox** | matlab-si-toolbox | MATLAB signal integrity analysis | https://pcbtool.net/sites/matlab-si-toolbox |
+| **PathWave** | pathwave | Keysight's design and simulation platform | https://pcbtool.net/sites/pathwave |
+| **SuperEM** | superem | EM simulation tool | https://pcbtool.net/sites/superem |
+| **ASCENEXT** | ascenext | Advanced signal integrity analysis | https://pcbtool.net/sites/ascenext |
+| **BTD ABS** | btd-abs | BTD advanced simulation | https://pcbtool.net/sites/btd-abs |
+| **BTD Thermosim** | btd-thermosim | Thermal simulation tool | https://pcbtool.net/sites/btd-thermosim |
+| **RedSIM AUTO** | redsim-auto | RedEDA simulation automation | https://pcbtool.net/sites/redsim-auto |
+| **VXintech EM Sim** | vxintech-em-sim | EM simulation from VXintech | https://pcbtool.net/sites/vxintech-em-sim |
+| **VXintech SI Sim** | vxintech-si-sim | Signal integrity simulation | https://pcbtool.net/sites/vxintech-si-sim |
+| **PhySim ACEM** | physim-acem | Electromagnetic field simulation | https://pcbtool.net/sites/physim-acem |
+| **PhySim DC** | physim-dc | DC analysis simulation | https://pcbtool.net/sites/physim-dc |
+| **PhySim ET** | physim-et | Electro-thermal simulation | https://pcbtool.net/sites/physim-et |
+| **PhySim TurboT** | physim-turbot | Thermal simulation | https://pcbtool.net/sites/physim-turbot |
+| **Hermes 3D** | hermes-3d | 3D EM simulation (Xpeedic) | https://pcbtool.net/sites/hermes-3d |
+| **Janus** | janus | Simulation tool (Xpeedic) | https://pcbtool.net/sites/janus |
+| **Notus** | notus | Simulation tool (Xpeedic) | https://pcbtool.net/sites/notus |
 
-分类页、首页、关于页、隐私政策等均有双语版本。语言选择保存在浏览器中，下次自动切换。
+---
 
-### 📄 工具详情页结构
+### 🔍 Design Review (33 Tools)
 
-以 KiCad 为例，每个工具详情页包含：
+Gerber viewers, DFM check tools, and design rule verification — your last line of defense before fabrication.
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Valor NPI** | valor-npi | Industrial DFM/DFA verification by Siemens | https://pcbtool.net/sites/valor-npi |
+| **CAM350** | cam350 | Professional CAM and DFM verification | https://pcbtool.net/sites/cam350 |
+| **CircuitCAM** | circuitcam | PCB CAM and manufacturing preparation | https://pcbtool.net/sites/circuitcam |
+| **FAB 3000** | fab-3000 | Advanced PCB CAM and DFM analysis | https://pcbtool.net/sites/fab-3000 |
+| **FlatCAM** | flatcam | Open-source PCB CAM for CNC manufacturing | https://pcbtool.net/sites/flatcam |
+| **GC-Prevue** | gcode-tools | Gerber viewer and editor | https://pcbtool.net/sites/gcode-tools |
+| **Gerbv** | gerbv | Open-source Gerber viewer (Linux/UNIX) | https://pcbtool.net/sites/gerbv |
+| **JLC CAM** | jlc-cam | JLCPCB's CAM tool | https://pcbtool.net/sites/jlc-cam |
+| **RedDFM** | reddfm | RedEDA DFM analysis | https://pcbtool.net/sites/reddfm |
+| **RedNPI** | rednpi | RedEDA NPI tool | https://pcbtool.net/sites/rednpi |
+| **RedCAM** | redcam | RedEDA CAM tool | https://pcbtool.net/sites/redcam |
+| **ViewMate** | viewmate | Professional Gerber viewer | https://pcbtool.net/sites/viewmate |
+| **ZofzPCB** | zofzpcb | Free 3D Gerber viewer | https://pcbtool.net/sites/zofzpcb |
+| **OpenBoardView** | openboardview | Open-source board file viewer for repair | https://pcbtool.net/sites/openboardview |
+| **RedReview** | redreview | RedEDA design review | https://pcbtool.net/sites/redreview |
+| **VXintech Review** | vxintech-review | Online design review tool | https://pcbtool.net/sites/vxintech-review |
+| **Vayo DFM** | vayo-dfm | Vayo DFM analysis | https://pcbtool.net/sites/vayo-dfm |
+| **Vayo CAM365** | vayo-cam365 | Cloud-based CAM tool | https://pcbtool.net/sites/vayo-cam365 |
+| **AiEma** | aiema | Online 3D Gerber viewer | https://pcbtool.net/sites/aiema |
+| **iPCB DFM** | ipcb-dfm | PCB manufacturing analysis | https://pcbtool.net/sites/ipcb-dfm |
+| **Jiepei DFM** | jiepei-dfm | Jiepei DFM analysis | https://pcbtool.net/sites/jiepei-dfm |
+| **Huaqiu DFM** | hq-dfm | Huaqiu online DFM | https://pcbtool.net/sites/hq-dfm |
+| **EPS Gerber Viewer** | eps-gerber-viewer | Gerber visualization tool | https://pcbtool.net/sites/eps-gerber-viewer |
+| **ViewPlot** | viewplot | Gerber and drill file viewer | https://pcbtool.net/sites/viewplot |
+| **Numerical Innovations** | numerical-innovations | PCB visualization tools | https://pcbtool.net/sites/numerical-innovations |
+| **Vayo View Expert** | vayo-view-expert | PCB design review tool | https://pcbtool.net/sites/vayo-view-expert |
+| **VisualPlace** | visualplace | PCB assembly visualization | https://pcbtool.net/sites/visualplace |
+| **MCN Gerber Viewer** | mcn-gerber-viewer | Audio-focused Gerber viewer | https://pcbtool.net/sites/mcn-gerber-viewer |
+| **GerbView** | gerbview | Professional Gerber editor/viewer | https://pcbtool.net/sites/gerbview |
+| **ProntoVIEW MARKUP** | prontoview-markup | PCB design review and markup | https://pcbtool.net/sites/prontoview-markup |
+| **QuadView** | quadview | PCB manufacturing data viewer | https://pcbtool.net/sites/quadview |
+| **BluePrint-PCB** | blueprint-pcb | Siemens' PCB documentation tool | https://pcbtool.net/sites/blueprint-pcb |
+| **InterCAD Reader** | intercad-reader | CAD file reader | https://pcbtool.net/sites/intercad-reader |
+
+---
+
+### 🛤️ Layout & Routing (10 Tools)
+
+Specialized auto-routers and PCB layout optimization tools.
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Bartels AutoRouter** | bartels-autorouter | Professional auto-routing for complex boards | https://pcbtool.net/sites/bartels-autorouter |
+| **Electra** | electra | Shape-based auto-router | https://pcbtool.net/sites/electra |
+| **FreeRouting** | freerouting | Open-source auto-router by Alfons Wirtz | https://pcbtool.net/sites/freerouting |
+| **PCB Auto-Router** | pcb-auto-router | Web-based routing service | https://pcbtool.net/sites/pcb-auto-router |
+| **QAutoRouter** | qautorouter | Open-source auto-router | https://pcbtool.net/sites/qautorouter |
+| **TopoR** | topor | Topological auto-router | https://pcbtool.net/sites/topor |
+| **McCAD AutoRouter** | mccad-autorouter | Integration with McCAD tools | https://pcbtool.net/sites/mccad-autorouter |
+| **DeepPCB** | deeppcb | AI-enhanced routing tool | https://pcbtool.net/sites/deeppcb |
+| **BoardPerfect** | boardperfect | PCB layout optimization | https://pcbtool.net/sites/boardperfect |
+| **SimplifyDA** | simplifyda | PCB design simplification | https://pcbtool.net/sites/simplifyda |
+
+---
+
+### 🧩 Parts & 3D Model (14 Tools)
+
+Component libraries, footprint generators, and 3D model repositories.
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **SnapEDA** | snapeda | The largest free CAD model library (now SnapMagic) | https://pcbtool.net/sites/snapeda |
+| **Ultra Librarian** | ultralibrarian | Component footprint/symbol generation for all EDA tools | https://pcbtool.net/sites/ultralibrarian |
+| **Component Search Engine** | componentsearchengine | Engineering part search and CAD model download | https://pcbtool.net/sites/componentsearchengine |
+| **PCB Partz** | pcbpartz | PCB component library search | https://pcbtool.net/sites/pcbpartz |
+| **RedLIB** | redlib | RedEDA component library tool | https://pcbtool.net/sites/redlib |
+| **Bocangku** | bocangku | Chinese component library platform | https://pcbtool.net/sites/bocangku |
+| **TraceParts** | traceparts | 3D component models | https://pcbtool.net/sites/traceparts |
+| **3D ContentCentral** | 3d-contentcentral | 3D CAD models for components | https://pcbtool.net/sites/3d-contentcentral |
+| **Allegro Library Creator** | allegro-library-creator | Cadence library generation | https://pcbtool.net/sites/allegro-library-creator |
+| **GrabCAD** | grabcad | Large 3D model community and library | https://pcbtool.net/sites/grabcad |
+| **Genesis XLIB** | genesis-xlib | Xpeedic component library | https://pcbtool.net/sites/genesis-xlib |
+| **VXintech Library** | vxintech-library | VXintech library tool | https://pcbtool.net/sites/vxintech-library |
+| **Footprintku Studio** | footprintku | Online footprint design studio | https://pcbtool.net/sites/footprintku |
+| **PCB Libraries** | pcb-libraries | Professional footprint libraries | https://pcbtool.net/sites/pcb-libraries |
+
+---
+
+### 🧮 Calculators (14 Tools)
+
+Engineering calculators for PCB design — impedance, trace width, stackup, and more.
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Saturn PCB Toolkit** | saturn-pcb-toolkit | The most comprehensive free PCB design calculator suite | https://pcbtool.net/sites/saturn-pcb-toolkit |
+| **Polar Si9000** | polar-si9000 | Professional PCB impedance field solver | https://pcbtool.net/sites/polar-si9000 |
+| **TI Design Tools** | ti-tools | Power, clock, filter design tools from Texas Instruments | https://pcbtool.net/sites/ti-tools |
+| **ADI Tools** | adi-tools | Analog Devices design and simulation tools | https://pcbtool.net/sites/adi-tools |
+| **MPS Tools** | mps-tools | MPS power design tools | https://pcbtool.net/sites/mps-tools |
+| **Webench** | webench | TI's power supply design tool | https://pcbtool.net/sites/webench |
+| **JLCPCB Impedance** | jlc-impedance | JLCPCB's online impedance calculator | https://pcbtool.net/sites/jlc-impedance |
+| **Tigees FPC Tools** | tigees-fpc-calculators | FPC design calculators | https://pcbtool.net/sites/tigees-fpc-calculators |
+| **CalcTown** | calctown | Online engineering calculator collection | https://pcbtool.net/sites/calctown |
+| **Ekalk** | ekalk | Engineering and scientific calculators | https://pcbtool.net/sites/ekalk |
+| **GAL-ANA** | gal-ana | RF/circuit analysis calculators | https://pcbtool.net/sites/gal-ana |
+| **Electronics Assistant** | electronics-assistant | Windows PCB design calculator | https://pcbtool.net/sites/electronics-assistant |
+| **Coil Designer** | coil-designer | Inductor/coil design calculator | https://pcbtool.net/sites/coil-designer |
+| **Olimex Tools** | olimex-tools | Olimex engineering tools | https://pcbtool.net/sites/olimex-tools |
+
+---
+
+### 👥 Hardware Community (30 Tools)
+
+The global hardware community — forums, project sharing, and maker platforms.
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|---|
+| **Hackaday.io** | hackaday-io | The largest hardware hacker community | https://pcbtool.net/sites/hackaday-io |
+| **Hackster.io** | hackster | Project-based hardware community by Avnet | https://pcbtool.net/sites/hackster |
+| **Instructables** | instructables | DIY project sharing platform (Autodesk) | https://pcbtool.net/sites/instructables |
+| **EEVblog Forum** | eevblog | The "Stack Overflow for hardware engineers" | https://pcbtool.net/sites/eevblog |
+| **Reddit r/PCB** | reddit-pcb | PCB design subreddit community | https://pcbtool.net/sites/reddit-pcb |
+| **All About Circuits** | all-about-circuits | Electronics education and forum | https://pcbtool.net/sites/all-about-circuits |
+| **element14** | element14 | Electronics design community by Farnell | https://pcbtool.net/sites/element14 |
+| **OSHWHub** | oshwhub | Open-source hardware hub (Chinese) | https://pcbtool.net/sites/oshwhub |
+| **OSHWLab** | oshwlab | Open-source hardware lab community | https://pcbtool.net/sites/oshwlab |
+| **Maker Pro** | maker-pro | Maker community and learning platform | https://pcbtool.net/sites/maker-pro |
+| **Huaqiu OSHW** | hq-oshw | Huaqiu open-source hardware platform | https://pcbtool.net/sites/hq-oshw |
+| **Circuit Maker Hubs** | circuit-maker-hubs | Altium's hardware community | https://pcbtool.net/sites/circuit-maker-hubs |
+| **DigiKey Maker** | digikey-maker | Maker resources from DigiKey | https://pcbtool.net/sites/digikey-maker |
+| **Electronics Lab** | electronics-lab | DIY electronics projects | https://pcbtool.net/sites/electronics-lab |
+| **Electromaker** | electromaker | Maker project platform | https://pcbtool.net/sites/electromaker |
+| **Electronics Hub** | electronicshub | Electronics tutorials and projects | https://pcbtool.net/sites/electronicshub |
+| **Open Hardware** | open-hardware | Open hardware project repository | https://pcbtool.net/sites/open-hardware |
+| **Open Compute Project** | open-compute-project | Open-source data center hardware | https://pcbtool.net/sites/open-compute-project |
+| **Kitspace** | kitspace | Open-source hardware project repository | https://pcbtool.net/sites/kitspace |
+| **Open Electronics** | open-electronics | Open-source electronics magazine | https://pcbtool.net/sites/open-electronics |
+| **Elektroda** | elektroda | Polish electronics forum | https://pcbtool.net/sites/elektroda |
+| **21ic** | 21ic | Chinese electronics engineering community | https://pcbtool.net/sites/21ic |
+| **EEWorld** | eeworld | Chinese electronics engineering world | https://pcbtool.net/sites/eeworld |
+| **EEPW** | eepw | Chinese electronics engineering magazine | https://pcbtool.net/sites/eepw |
+| **EEFOCUS** | eefocus | Chinese electronics engineering platform | https://pcbtool.net/sites/eefocus |
+| **EETree** | eetree | Chinese hardware developer community | https://pcbtool.net/sites/eetree |
+| **Elecfans** | elecfans | Chinese electronics fan community | https://pcbtool.net/sites/elecfans |
+| **JLCPCB BBS** | jlc-bbs | JLCPCB community forum | https://pcbtool.net/sites/jlc-bbs |
+| **Yingchuangshe** | yingchuangshe | Chinese hardware startup platform | https://pcbtool.net/sites/yingchuangshe |
+| **Hackaday** | hackaday | Hardware hacking news and projects | https://pcbtool.net/sites/hackaday |
+
+---
+
+## Key Features
+
+### 🔍 Live Search
+Search filters tool cards in real-time by Chinese or English name. URL auto-updates with `?q=` parameter — share a filtered view with colleagues.
+
+### 🌏 Full Bilingual Support
+Every tool page, category page, and static page has both English and Chinese versions:
+- English: `https://pcbtool.net/sites/kicad.html`
+- Chinese: `https://pcbtool.net/zh-cn/sites/kicad.html`
+
+Language preference is saved in localStorage for return visits.
+
+### 📄 Tool Detail Pages
+Each of the 371 tools has its own detail page with:
 
 ```
-首页 > 原理图&PCB > KiCad
-├── 工具名 + Logo（自动缩放为 WebP）
-├── 概要：厂商 | 国家 | 定价 | 版本号 | 状态
-├── 详细介绍（中英文双语）
-├── 功能特点列表
-├── 截图画廊（放大+键盘导航）
-├── 官网链接 + 社区/文档/案例链接
-└── JSON-LD 结构化数据（搜索引擎友好）
+Home > Category > Tool Name (breadcrumb)
+├── Tool name + Logo (auto-converted to WebP)
+├── Metadata: Company | Country | Pricing | Version | Status
+├── Description (bilingual)
+├── Feature list (bilingual)
+├── Screenshot gallery (zoom + keyboard navigation)
+├── Official website link (with ?ref=pcbtool.net tracking)
+└── JSON-LD structured data (SoftwareApplication schema)
 ```
 
-### 🤖 AI 爬虫友好
-配置 `robots.txt` 显式允许 GPTBot、PerplexityBot、ClaudeBot、Google-Extended 等 AI 爬虫，配备 `llms.txt`（llmstxt.org 标准），帮助 LLM 回答问题时引用本站信息。
+### 🤖 AI Crawler Friendly
+- `robots.txt` explicitly allows GPTBot, PerplexityBot, ClaudeBot, Google-Extended
+- `llms.txt` follows the llmstxt.org standard for LLM context
+- Structured data ensures AI assistants can cite accurate tool information
 
-### ⚡ 纯静态 + 响应式
-全站为预渲染静态 HTML，搜索引擎可直接抓取。PC、平板、手机均可流畅浏览。
-
----
-
-## 五、技术栈一览
-
-| 组件 | 技术选型 |
-|------|---------|
-| 构建工具 | Node.js 自定义脚本（~1300 行） |
-| 模板引擎 | HTML + `{{变量}}` 替换，零框架 |
-| Markdown 解析 | marked |
-| 元数据解析 | gray-matter |
-| 图片处理 | sharp（自动转 WebP） |
-| 前端 | 原生 JS + CSS，无框架 |
-| 图标 | Font Awesome 6（CDN） |
-| 部署 | Cloudfare（全球 CDN，HTTPS） |
-
+### ⚡ Static Site Architecture
+Built with Node.js + Markdown → 100% static HTML. No databases, no server-side rendering, no JavaScript frameworks. Every page is pre-rendered at build time, ensuring maximum performance and SEO crawlability.
 
 ---
 
-## 六、近期新增工具一览（2026-06-22）
+## Tech Stack
 
-站点保持高频更新，最近一次批量新增了 12 款工具：
-
-| 工具 | 分类 | 一句话概括 |
-|------|------|-----------|
-| **Schematik** | AI for EDA | 硬件版 Cursor，自然语言→固件+接线图+烧录 |
-| **Tinkered** | AI for EDA | AI 生成 + 3D 仿真 + 一键部署 |
-| **Pinscope** | AI for EDA | AI 原理图审查，逐引脚比对数据手册 |
-| **Circuit Tree** | AI for EDA | 自动化 PCB 设计引擎，10 分钟交付 |
-| **hardware.dog** | AI for EDA | 综合 AI 硬件设计工作台 |
-| **iOrchestra** | AI for EDA | NVIDIA Blackwell 驱动的 AI 硬件设计 |
-| **Blueprint.am** | AI for EDA | 3E8 Robotics，自然语言→硬件方案 |
-| **AutoCuro** | AI for EDA | 印度团队，AI 自动 PCB 布局布线 |
-| **Faradworks** | AI for EDA | Pinscope 母公司，AI 硬件实验室 |
-| **ZeroOhm AI** | AI for EDA | AI PCB 验证平台（Beta） |
-| **JetPave** ⛔ | AI for EDA | 捷配 AI 平台（已停止维护，保留行业参考） |
-| **DIY Layout Creator** | 原理图&PCB | 开源跨平台电路布局工具，1.5k Stars |
+| Component | Technology |
+|-----------|-----------|
+| Build System | Node.js custom script (~1300 lines) |
+| Template Engine | HTML + `{{variable}}` replacement (zero dependencies) |
+| Markdown | marked |
+| Frontmatter | gray-matter |
+| Image Processing | sharp (PNG/ICO/SVG → WebP) |
+| Frontend | Vanilla JS + CSS (no frameworks) |
+| Icons | Font Awesome 6 (CDN) |
+| Deployment | Netlify (global CDN, HTTPS) |
+| License | MIT (open source) |
 
 ---
 
-## 七、谁适合用 PCBTool.Net？
+## Recent Additions (Last Batch: 2026-06-22)
 
-| 人群 | 使用场景 | 推荐分类 |
-|------|---------|---------|
-| 🧑‍💻 **电子工程师** | 查找/对比工具，寻找替代品 | 原理图&PCB / 仿真 / 设计审查 |
-| 🚀 **硬件创业者** | 搭建工具链，评估 AI 提效 | AI for EDA / 在线工具 / 布局布线 |
-| 🎓 **在校学生** | 发现免费学习工具 | 原理图&PCB / 仿真 / 计算工具 |
-| 🔧 **硬件创客** | 快速原型工具链 | AI for EDA / 在线仿真 / 社区 |
-| 🤖 **AI 从业者** | 了解 AI for EDA 赛道 | AI for EDA（29 款全收录） |
-| 📝 **硬件媒体** | 行业研究、资料引用 | 全部 11 个分类 |
+12 tools added in the most recent update:
 
----
-
-## 八、路线图
-
-PCBTool.Net 目前是**个人维护的开源项目**，未来的计划包括：
-
-- ⭐ **用户评价系统** — 工程师为工具打分和点评
-- 📊 **工具对比功能** — 并排对比多款工具参数
-- 📚 **教程资源链接** — 各工具的上手指南
-- 🤝 **社区贡献** — 开放 PR 接受社区提交的新工具
-
-有建议或发现遗漏的工具？欢迎联系：**pcbtool@outlook.com**
+| Tool | Category | One-Liner |
+|------|----------|-----------|
+| **Schematik** | AI for EDA | "The Cursor for hardware" — AI Hardware IDE |
+| **Tinkered** | AI for EDA | AI generation + 3D simulation + one-click deploy |
+| **Pinscope** | AI for EDA | AI schematic review, pin-by-pin against datasheets |
+| **Circuit Tree** | AI for EDA | Automated PCB design engine, 10-min delivery |
+| **hardware.dog** | AI for EDA | Comprehensive AI hardware design workbench |
+| **iOrchestra** | AI for EDA | NVIDIA Blackwell-powered AI hardware design |
+| **Blueprint.am** | AI for EDA | By 3E8 Robotics — natural language to hardware |
+| **AutoCuro** | AI for EDA | AI auto PCB placement/routing (India-based team) |
+| **Faradworks** | AI for EDA | Applied AI lab (creator of Pinscope) |
+| **ZeroOhm AI** | AI for EDA | AI PCB validation platform (Beta) |
+| **JetPave** | AI for EDA | Jiepei's AI hardware platform (inactive/discontinued) |
+| **DIY Layout Creator** | Schematic & PCB | Open-source circuit layout tool, 1.5k GitHub Stars |
 
 ---
 
-## 九、结语
+## Who Is PCBTool.Net For?
 
-EDA 工具生态正在经历一场深刻的变革——AI 在重塑硬件设计的工作流，国产 EDA 在快速崛起，开源工具在成熟壮大。PCBTool.Net 希望成为这场变革中的一个信息枢纽，帮助每一位硬件开发者更快地找到趁手的工具。
-
-**无论你是资深工程师还是刚入门的学生，这里都有一款适合你的工具在等你发现。**
-
-🌐 **立即访问：[https://pcbtool.net](https://pcbtool.net)**
+| Audience | Use Case | Recommended Categories |
+|----------|----------|----------------------|
+| 🧑‍💻 **Electronics Engineers** | Find/compare EDA tools, find alternatives | Schematic & PCB / Simulation / Design Review |
+| 🚀 **Hardware Startups** | Build toolchains, evaluate AI productivity gains | AI for EDA / Online Tools / Layout & Routing |
+| 🎓 **Students** | Find free/open-source learning tools | Schematic & PCB / Simulation / Calculators |
+| 🔧 **Makers & Hobbyists** | Rapid prototyping tools | AI for EDA / Online Schematic & PCB / Community |
+| 🤖 **AI Practitioners** | Understand the AI for EDA landscape | AI for EDA (all 29 tools) |
+| 🌐 **Tech Media & Bloggers** | Industry research, reference material | All 11 categories |
 
 ---
 
-*PCBTool.Net — 开源 · 双语 · 持续更新*
+## Roadmap
+
+PCBTool.Net is an **open-source personal project** with plans for:
+
+- ⭐ **User ratings and reviews** — Engineers rate and comment on tools
+- 📊 **Tool comparison** — Side-by-side feature comparison
+- 📚 **Tutorial links** — Getting-started guides for each tool
+- 🤝 **Community contributions** — Open PRs for new tools
+
+Questions or suggestions? Reach out: **pcbtool@outlook.com**
+
+---
+
+## Conclusion
+
+The EDA tool ecosystem is undergoing a profound transformation — AI is reshaping hardware design workflows, Chinese domestic EDA is rising rapidly, and open-source tools are maturing. PCBTool.Net aims to be an information hub in this transformation, helping every hardware developer find the right tool faster.
+
+**Whether you're a seasoned engineer or a student just getting started, there's a tool waiting for you.**
+
+🌐 **Visit now: [https://pcbtool.net](https://pcbtool.net)**
+
+---
+
+*PCBTool.Net — Open Source · Bilingual · Continuously Updated*
 *GitHub: [github.com/pcbtool/pcbtool.net](https://github.com/pcbtool/pcbtool.net)*
-*反馈: pcbtool@outlook.com*
+*Contact: pcbtool@outlook.com*
 
 ---
 
-> **📢 转载说明**：本文欢迎转载，请保留原文链接和作者信息。如发现工具信息有误或遗漏了新工具，欢迎通过 GitHub Issues 提交或发送邮件反馈。
+> **📢 Republishing**: Feel free to republish this article with attribution. If you spot outdated information or missing tools, please open a GitHub Issue or send an email.
