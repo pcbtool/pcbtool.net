@@ -549,8 +549,8 @@
 | 图片处理 | sharp（自动转 WebP） |
 | 前端 | 原生 JS + CSS，无框架 |
 | 图标 | Font Awesome 6（CDN） |
-| 部署 | Netlify（全球 CDN，HTTPS） |
-| 许可证 | MIT 开源 |
+| 部署 | Cloudfare（全球 CDN，HTTPS） |
+
 
 ---
 

@@ -507,8 +507,8 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 | Image Processing | sharp (PNG/ICO/SVG → WebP) |
 | Frontend | Vanilla JS + CSS (no frameworks) |
 | Icons | Font Awesome 6 (CDN) |
-| Deployment | Netlify (global CDN, HTTPS) |
-| License | MIT (open source) |
+| Deployment | Cloudfare (global CDN, HTTPS) |
+
 
 ---
 
