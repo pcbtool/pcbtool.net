@@ -310,7 +310,7 @@ Signal integrity, power integrity, EM, and thermal simulation tools.
 
 ---
 
-### 🔍 Design Review (33 Tools)
+### 🔍 Design Review (34 Tools)
 
 Gerber viewers, DFM check tools, and design rule verification — your last line of defense before fabrication.
 
@@ -343,6 +343,7 @@ Gerber viewers, DFM check tools, and design rule verification — your last line
 | **Numerical Innovations** | numerical-innovations | PCB visualization tools | https://pcbtool.net/sites/numerical-innovations |
 | **Vayo View Expert** | vayo-view-expert | PCB design review tool | https://pcbtool.net/sites/vayo-view-expert |
 | **VisualPlace** | visualplace | PCB assembly visualization | https://pcbtool.net/sites/visualplace |
+| **PCBA Partner BOM & Placement Checker** | pcba-partner-bom-checker | Browser-based BOM checks for quantities, part numbers and references; optional pick-and-place comparison | https://pcbapartner.com/tools/bom-checker/ |
 | **MCN Gerber Viewer** | mcn-gerber-viewer | Audio-focused Gerber viewer | https://pcbtool.net/sites/mcn-gerber-viewer |
 | **GerbView** | gerbview | Professional Gerber editor/viewer | https://pcbtool.net/sites/gerbview |
 | **ProntoVIEW MARKUP** | prontoview-markup | PCB design review and markup | https://pcbtool.net/sites/prontoview-markup |
