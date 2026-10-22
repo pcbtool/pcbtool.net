@@ -1,4 +1,4 @@
-# PCBTool.Net — The Ultimate PCB Design Tools Directory (371 Tools & Counting)
+# PCBTool.Net — The Ultimate PCB Design Tools Directory (389 Tools & Counting)
 
 > From schematic capture to PCB simulation, from AI-powered EDA to online Gerber viewers, from component libraries to hardware communities — one site to find the right tool for every stage of hardware design.
 
@@ -14,7 +14,7 @@ Or maybe you want to try one of the new AI-powered PCB design tools, but you hav
 
 **PCBTool.Net has a simple mission: spend less time finding tools, more time using them.**
 
-Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 371 PCB design tools, with detailed information on each one.
+Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 389 PCB design tools, with detailed information on each one.
 
 ---
 
@@ -24,16 +24,16 @@ Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bili
 |-----------|------|-------|-------|
 | Initial Launch | 2026-04 | ~90 | Core EDA tools |
 | Major Expansion | 2026-04-07 | 220+ | Added Chinese domestic EDA ecosystem |
-| Ongoing Growth | 2026-04 ~ now | 371+ | AI for EDA, simulation, communities, etc. |
-| **Latest** | **2026-06-22** | **371 tools** | **11 categories, 760+ generated pages** |
+| Ongoing Growth | 2026-04 ~ now | 389+ | AI for EDA, simulation, communities, etc. |
+| **Latest** | **2026-06-22** | **389 tools** | **12 categories, 780+ generated pages** |
 
 **Tech stack:** Node.js + Markdown → static HTML. No frameworks, no databases, no JavaScript rendering. Every page is pre-rendered at build time for maximum performance and SEO.
 
 ---
 
-## 371 Tools × 11 Categories
+## 389 Tools × 12 Categories
 
-### 🧠 AI for EDA (29 Tools) — Fastest Growing Category
+### 🧠 AI for EDA (39 Tools) — Fastest Growing Category
 
 The hottest space in EDA right now. AI tools that generate schematics, place components, review designs, and even write firmware from natural language descriptions.
 
@@ -68,12 +68,23 @@ The hottest space in EDA right now. AI tools that generate schematics, place com
 | **Traceformer** | traceformer | AI PCB electrical design review against component datasheets | https://pcbtool.net/sites/traceformer |
 | **tscircuit** | tscircuit | World's first TypeScript code-defined hardware EDA (open source) | https://pcbtool.net/sites/tscircuit |
 | **ZeroOhm AI** | zeroohm-ai | AI PCB validation platform for schematic and layout stages (Beta) | https://pcbtool.net/sites/zeroohm-ai |
+| **CIRC AI** | circ-ai | AI-assisted circuit design and analysis | https://pcbtool.net/sites/circ-ai |
+| **Conductor PCB** | conductor-pcb | AI-assisted PCB layout and design agent | https://pcbtool.net/sites/conductor-pcb |
+| **Datasheets.md** | datasheets-md | Markdown-first datasheet library and AI retrieval | https://pcbtool.net/sites/datasheets-md |
+| **ElectronicsForge** | electronicsforge | AI electronics design platform for hardware teams | https://pcbtool.net/sites/electronicsforge |
+| **HeyPCB** | heypcb | Conversational PCB design assistant | https://pcbtool.net/sites/heypcb |
+| **Ohmbo** | ohmbo | AI-powered PCB design and manufacturing assistant | https://pcbtool.net/sites/ohmbo |
+| **RapidChip** | rapidchip | Rapid AI-assisted PCB prototyping and design | https://pcbtool.net/sites/rapidchip |
+| **Silixon** | silixon | AI-driven silicon and chip design workflow | https://pcbtool.net/sites/silixon |
+| **Trace** | trace | AI-powered hardware design and collaboration platform | https://pcbtool.net/sites/trace |
+| **ZiroEDA** | ziroeda | Zero-UI AI EDA with natural-language hardware design | https://pcbtool.net/sites/ziroeda |
 
-> 🤖 If you want to understand the AI for EDA landscape in 2026, these 29 tools cover virtually every player.
+
+> 🤖 If you want to understand the AI for EDA landscape in 2026, these 39 tools cover virtually every player.
 
 ---
 
-### 🌐 Online Schematic & PCB (15 Tools)
+### 🌐 Online Schematic & PCB (16 Tools)
 
 Browser-based EDA tools — no installation required.
 
@@ -94,6 +105,8 @@ Browser-based EDA tools — no installation required.
 | **Plinth** | plinth | Electronic design tool | https://pcbtool.net/sites/plinth |
 | **SVG-PCB** | svg-pcb | Design PCBs using vector graphics tools (Illustrator/Inkscape) | https://pcbtool.net/sites/svg-pcb |
 | **Jiepei EDA** | jp-eda | Cloud-based EDA from Jiepei manufacturing | https://pcbtool.net/sites/jp-eda |
+| **PLCEDA** | plceda | Browser-based PCB design platform from the PLCEDA family | https://pcbtool.net/sites/plceda |
+
 
 ---
 
@@ -127,7 +140,7 @@ View and compare PCB/Gerber files directly in your browser — no software insta
 
 ---
 
-### 📋 Schematic & PCB (102 Tools) — Largest Category
+### 📋 Schematic & PCB (119 Tools) — Largest Category
 
 The foundation of the directory — every EDA tool you've heard of and many you haven't. Split into international, Chinese domestic, and classic/retro tools.
 
@@ -185,14 +198,96 @@ The foundation of the directory — every EDA tool you've heard of and many you 
 | **SunV EDA** | sunv-eda | Chinese EDA platform | https://pcbtool.net/sites/sunv-eda |
 | **Liatro EDA** | liatro-eda | Chinese EDA design tool | https://pcbtool.net/sites/liatro-eda |
 | **VEE CAD** | veecad | Chinese EDA tool | https://pcbtool.net/sites/veecad |
+| **Huaqiu EDA Std** | hq-eda | Huaqiu EDA professional tier| https://pcbtool.net/sites/hq-eda |
+| **Razen** | razen | Chinese PCB design tool| https://pcbtool.net/sites/razen |
+
 
 **Classic / Retro (Still Worth Knowing):**
 
-Protel 99SE, P-CAD, PowerPCB, Tango, ACCEL EDA, WinPCB, BoardMaker3, BSch3V, CADINT, CADSTAR, Caneda, CIDESS, CIRCAD, Douglas CAD/CAM, Easy-PC, EDA2002, EDWin, EDWinXP, ExpressSCH, FidoCadJ, FreePCB, FreePCB 2, JumboCAD, Layo1 PCB, Layout Editor, Merlin PCB, MyNetPCB, Open Schematic Capture, Osmond PCB, Pad2Pad, Patchr, PCSchematic, PCB-3-0, PCB Artist, PCB Creator, PCB Elegance, PCB-rnd, PCB123, PCBMode, PCBWeb, Proficad, SPlan, Sprint Layout, Signex, UniVista Archer PCB/Schematic, Veroroute, Vutrax, WinCircuit, WinQCAD, XCircuit, ZenitPCB, Visionics, Quadcept, XLDesigner, Copper App, Circuit Wizard, PCB Investigator, PCB Droid, Pollex, XSmartPR, XSmartSch, McCAD Schematics Plus, McCAD PCB ST
+Classic / Retro (Still Worth Knowing):
+
+| Tool | Slug | One-Liner | URL |
+|------|------|-----------|
+| **Protel 99SE** | protel-99se | The classic Windows schematic and PCB tool that defined an era| https://pcbtool.net/sites/protel-99se |
+| **P-CAD** | p-cad | Early PCB CAD from the Protel lineage (legacy)| https://pcbtool.net/sites/p-cad |
+| **PowerPCB** | powerpcb | High-end PCB layout from the Protel family (legacy)| https://pcbtool.net/sites/powerpcb |
+| **Tango** | tango | PCB layout software from the 1990s (legacy)| https://pcbtool.net/sites/tango |
+| **ACCEL EDA** | accel-eda | Legacy Windows EDA suite, ancestor of modern fast PCB tools| https://pcbtool.net/sites/accel-eda |
+| **WinPCB** | winpcb | Free Windows PCB layout tool (legacy)| https://pcbtool.net/sites/winpcb |
+| **BoardMaker3** | boardmaker3 | Board-level PCB design software (legacy)| https://pcbtool.net/sites/boardmaker3 |
+| **BSch3V** | bsch3v | BSch3V schematic capture tool (legacy)| https://pcbtool.net/sites/bsch3v |
+| **CADINT** | cadint | Legacy EDA schematic/PCB tool| https://pcbtool.net/sites/cadint |
+| **CADSTAR** | cadstar | Legacy PCB and schematic design suite| https://pcbtool.net/sites/cadstar |
+| **Caneda** | caneda | Open-source schematic capture (Linux/Windows)| https://pcbtool.net/sites/caneda |
+| **CIDESS** | cidess | Legacy schematic capture tool| https://pcbtool.net/sites/cidess |
+| **CIRCAD** | circad | Legacy PCB layout software| https://pcbtool.net/sites/circad |
+| **AACircuit** | aacircuit | Classic circuit schematic capture tool| https://pcbtool.net/sites/aacircuit |
+| **Douglas CAD/CAM** | douglas | Classic PCB CAD/CAM system| https://pcbtool.net/sites/douglas |
+| **Easy-PC** | easy-pc | Easy-PC PCB design (legacy)| https://pcbtool.net/sites/easy-pc |
+| **EDA2002** | eda2002 | EDA2002 schematic/PCB tool (legacy)| https://pcbtool.net/sites/eda2002 |
+| **EDWin** | edwin | Legacy EDA schematic/PCB tool| https://pcbtool.net/sites/edwin |
+| **EDWinXP** | edwinxp | EDWin XP schematic capture (legacy)| https://pcbtool.net/sites/edwinxp |
+| **ExpressSCH** | expresssch | Fast schematic capture from ExpressPCB| https://pcbtool.net/sites/expresssch |
+| **FidoCadJ** | fidocadj | FidoCadJ — lightweight vector schematic editor| https://pcbtool.net/sites/fidocadj |
+| **FreePCB** | freepcb | Open-source PCB layout editor| https://pcbtool.net/sites/freepcb |
+| **FreePCB 2** | freepcb-2 | FreePCB 2 — open-source PCB layout rewrite| https://pcbtool.net/sites/freepcb-2 |
+| **Front Panel Express** | front-panel-express | Front panel and enclosure design| https://pcbtool.net/sites/front-panel-express |
+| **JumboCAD** | jumbocad | Classic PCB CAD software| https://pcbtool.net/sites/jumbocad |
+| **Layo1 PCB** | layo1-pcb | LAYO1 PCB layout tool (legacy)| https://pcbtool.net/sites/layo1-pcb |
+| **Layout Editor** | layout-editor | Simple PCB layout editor| https://pcbtool.net/sites/layout-editor |
+| **Merlin PCB** | merlin-pcb | Merlin PCB auto-router and layout tool| https://pcbtool.net/sites/merlin-pcb |
+| **MyNetPCB** | mynetpcb | Browser/online PCB layout tool| https://pcbtool.net/sites/mynetpcb |
+| **Open Schematic Capture** | open-schematic-capture | Open-source schematic capture (Kicad-era ancestor)| https://pcbtool.net/sites/open-schematic-capture |
+| **Osmond PCB** | osmond-pcb | Osmond PCB layout and autorouter| https://pcbtool.net/sites/osmond-pcb |
+| **Pad2Pad** | pad2pad | PCB pads and footprints utility| https://pcbtool.net/sites/pad2pad |
+| **Patchr** | patchr | Online PCB layout and fabrication service| https://pcbtool.net/sites/patchr |
+| **PCSchematic** | pcschematic | Schematic capture software| https://pcbtool.net/sites/pcschematic |
+| **PCB-3.0** | pcb-3-0 | Early PCB design package (legacy)| https://pcbtool.net/sites/pcb-3-0 |
+| **PCB Artist** | pcb-artist | PCB artwork and layout design (legacy)| https://pcbtool.net/sites/pcb-artist |
+| **PCB Creator** | pcb-creator | PCB creation and layout tool| https://pcbtool.net/sites/pcb-creator |
+| **PCB Elegance** | pcb-elegance | High-performance PCB layout engine| https://pcbtool.net/sites/pcb-elegance |
+| **PCB-rnd** | pcb-rnd | PCB-rnd — parametric PCB design| https://pcbtool.net/sites/pcb-rnd |
+| **PCB123** | pcb123 | Online PCB design and ordering| https://pcbtool.net/sites/pcb123 |
+| **PCBMode** | pcbmode | PCB design and fabrication tool| https://pcbtool.net/sites/pcbmode |
+| **PCBWeb** | pcbweb | Online PCB design and ordering service| https://pcbtool.net/sites/pcbweb |
+| **Proficad** | proficad | Professional PCB design and layout| https://pcbtool.net/sites/proficad |
+| **SPlan** | splan | Integrated EDA environment for Windows| https://pcbtool.net/sites/splan |
+| **Sprint Layout** | sprint-layout | Fast PCB layout tool| https://pcbtool.net/sites/sprint-layout |
+| **Signex** | signex | Signal integrity and layout design tool| https://pcbtool.net/sites/signex |
+| **Genesis XPKG** | genesis-xpkg | Genesis XPKG — package design (Xpeedic)| https://pcbtool.net/sites/genesis-xpkg |
+| **Genesis XPCB** | genesis-xpcb | Genesis XPCB — PCB design (Xpeedic)| https://pcbtool.net/sites/genesis-xpcb |
+| **Genesis XSCH** | genesis-xsch | Genesis XSCH — schematic capture (Xpeedic)| https://pcbtool.net/sites/genesis-xsch |
+| **UniVista Archer PCB** | univista-archer-pcb | UniVista Archer PCB layout tool| https://pcbtool.net/sites/univista-archer-pcb |
+| **UniVista Archer Schematic** | univista-archer-schematic | UniVista Archer schematic capture| https://pcbtool.net/sites/univista-archer-schematic |
+| **Veroroute** | veroroute | Free autorouter for EDA PCB tools| https://pcbtool.net/sites/veroroute |
+| **Vutrax** | vutrax | Electronic PCB design and CAD software| https://pcbtool.net/sites/vutrax |
+| **WinCircuit** | wincircuit | Windows circuit design tool| https://pcbtool.net/sites/wincircuit |
+| **WinQCAD** | winqcad | Free cross-platform CAD for PCB and mechanical parts| https://pcbtool.net/sites/winqcad |
+| **XCircuit** | xcircuit | XCircuit — schematic capture and simulation for electronics| https://pcbtool.net/sites/xcircuit |
+| **ZenitPCB** | zenitpcb | ZenitPCB design tool| https://pcbtool.net/sites/zenitpcb |
+| **Visionics** | visionics | Visionics PCB design software| https://pcbtool.net/sites/visionics |
+| **Quadcept** | quadcept | Browser-based electronics design and simulation| https://pcbtool.net/sites/quadcept |
+| **XLDesigner** | xldesigner | XL Designer schematic/PCB tool| https://pcbtool.net/sites/xldesigner |
+| **Copper App** | copper-app | Copper — browser-based PCB layout tool| https://pcbtool.net/sites/copper-app |
+| **Circuit Wizard** | circuit-wizard | PCB design and analysis tool| https://pcbtool.net/sites/circuit-wizard |
+| **PCB Investigator** | pcb-investigator | Deep PCB file inspection and analysis| https://pcbtool.net/sites/pcb-investigator |
+| **PCB Droid** | pcb-droid | Android PCB layout and design app| https://pcbtool.net/sites/pcb-droid |
+| **Pollex** | pollex | Pollex PCB design software| https://pcbtool.net/sites/pollex |
+| **SmartScript PCB** | xsmartpr | SmartScript PCB — Chinese PCB design tool| https://pcbtool.net/sites/xsmartpr |
+| **SmartScript SCH** | xsmartsch | SmartScript SCH — Chinese schematic design tool| https://pcbtool.net/sites/xsmartsch |
+| **McCAD Schematics Plus** | mccad-schematics-plus | McCAD Schematics Plus capture| https://pcbtool.net/sites/mccad-schematics-plus |
+| **McCAD PCB ST** | mccad-pcb-st | McCAD PCB single-layer design| https://pcbtool.net/sites/mccad-pcb-st |
+| **Design Works** | design-works | DesignWorks schematic/PCB tool| https://pcbtool.net/sites/design-works |
+| **DIA Diagram** | dia-diagram | DIA Diagram circuit drawing tool| https://pcbtool.net/sites/dia-diagram |
+| **Circuit Diagrams** | circuit-diagrams | Circuit diagram creation and documentation| https://pcbtool.net/sites/circuit-diagrams |
+| **Schematics.io** | schematics-io | Schematics.io — online schematic editor| https://pcbtool.net/sites/schematics-io |
+| **DIY Layout Creator** | diy-layout-creator | DIY Layout Creator for hobbyist PCB design| https://pcbtool.net/sites/diy-layout-creator |
+| **Bartels AutoEngineer** | bartels-autoengineer | Bartels AutoEngineer schematic/PCB design| https://pcbtool.net/sites/bartels-autoengineer |
+| **AutoTrax** | autotrax | AutoTrax PCB auto-routing and layout| https://pcbtool.net/sites/autotrax |
 
 ---
 
-### 🔬 Online Schematic Simulation (23 Tools)
+### 🔬 Online Schematic Simulation (25 Tools)
 
 Browser-based circuit simulators — run SPICE and digital simulations without installing anything.
 
@@ -221,6 +316,9 @@ Browser-based circuit simulators — run SPICE and digital simulations without i
 | **Electric EDA** | electric-eda | Web-based EDA with simulation | https://pcbtool.net/sites/electric-eda |
 | **eSim** | esim | Open-source EDA by IIT Bombay | https://pcbtool.net/sites/esim |
 | **EECircuit** | eecircuit | Online circuit simulator | https://pcbtool.net/sites/eecircuit |
+| **CircuitForge** | circuitforge | Browser-based collaborative circuit design and simulation | https://pcbtool.net/sites/circuitforge |
+| **CircuitSim** | circuitsim | Online circuit simulation and analysis in the browser | https://pcbtool.net/sites/circuitsim |
+
 
 ---
 
@@ -273,6 +371,10 @@ Desktop SPICE simulators and circuit analysis tools for professional use.
 | **Logicly** | logicly | Educational logic gate simulator | https://pcbtool.net/sites/logicly |
 | **Multimedia Logic** | multimedia-logic | Educational digital logic design | https://pcbtool.net/sites/multimedia-logic |
 | **SmartSim** | smartsim | Digital circuit simulation tool | https://pcbtool.net/sites/smartsim |
+| **CEDAR Logic** | cedarlogic | CEDAR Logic digital simulation suite | https://pcbtool.net/sites/cedarlogic |
+| **HADES Simulation** | hades-sim | HADES hardware simulation framework for mixed systems | https://pcbtool.net/sites/hades-sim |
+| **PECS Simulation** | pecs-sim | PECS simulation edition for education | https://pcbtool.net/sites/pecs-sim |
+
 
 ---
 
@@ -310,7 +412,7 @@ Signal integrity, power integrity, EM, and thermal simulation tools.
 
 ---
 
-### 🔍 Design Review (33 Tools)
+### 🔍 Design Review (34 Tools)
 
 Gerber viewers, DFM check tools, and design rule verification — your last line of defense before fabrication.
 
@@ -349,10 +451,12 @@ Gerber viewers, DFM check tools, and design rule verification — your last line
 | **QuadView** | quadview | PCB manufacturing data viewer | https://pcbtool.net/sites/quadview |
 | **BluePrint-PCB** | blueprint-pcb | Siemens' PCB documentation tool | https://pcbtool.net/sites/blueprint-pcb |
 | **InterCAD Reader** | intercad-reader | CAD file reader | https://pcbtool.net/sites/intercad-reader |
+| **Keltri** | keltri | PCB manufacturing data review and DFM checks | https://pcbtool.net/sites/keltri |
+
 
 ---
 
-### 🛤️ Layout & Routing (10 Tools)
+### 🛤️ Layout & Routing (11 Tools)
 
 Specialized auto-routers and PCB layout optimization tools.
 
@@ -368,10 +472,12 @@ Specialized auto-routers and PCB layout optimization tools.
 | **DeepPCB** | deeppcb | AI-enhanced routing tool | https://pcbtool.net/sites/deeppcb |
 | **BoardPerfect** | boardperfect | PCB layout optimization | https://pcbtool.net/sites/boardperfect |
 | **SimplifyDA** | simplifyda | PCB design simplification | https://pcbtool.net/sites/simplifyda |
+| **FreeRouting Desktop** | freerouting-desktop | Desktop version of the open-source FreeRouting autorouter | https://pcbtool.net/sites/freerouting-desktop |
+
 
 ---
 
-### 🧩 Parts & 3D Model (14 Tools)
+### 🧩 Parts & 3D Model (15 Tools)
 
 Component libraries, footprint generators, and 3D model repositories.
 
@@ -391,6 +497,8 @@ Component libraries, footprint generators, and 3D model repositories.
 | **VXintech Library** | vxintech-library | VXintech library tool | https://pcbtool.net/sites/vxintech-library |
 | **Footprintku Studio** | footprintku | Online footprint design studio | https://pcbtool.net/sites/footprintku |
 | **PCB Libraries** | pcb-libraries | Professional footprint libraries | https://pcbtool.net/sites/pcb-libraries |
+| **PartSpark** | partspark | Free PCB footprint and 3D STEP model library | https://pcbtool.net/sites/partspark |
+
 
 ---
 
@@ -417,7 +525,7 @@ Engineering calculators for PCB design — impedance, trace width, stackup, and 
 
 ---
 
-### 👥 Hardware Community (30 Tools)
+### 👥 Hardware Community (31 Tools)
 
 The global hardware community — forums, project sharing, and maker platforms.
 
@@ -469,7 +577,7 @@ Every tool page, category page, and static page has both English and Chinese ver
 Language preference is saved in localStorage for return visits.
 
 ### 📄 Tool Detail Pages
-Each of the 371 tools has its own detail page with:
+Each of the 389 tools has its own detail page with:
 
 ```
 Home > Category > Tool Name (breadcrumb)
@@ -538,7 +646,7 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 | 🎓 **Students** | Find free/open-source learning tools | Schematic & PCB / Simulation / Calculators |
 | 🔧 **Makers & Hobbyists** | Rapid prototyping tools | AI for EDA / Online Schematic & PCB / Community |
 | 🤖 **AI Practitioners** | Understand the AI for EDA landscape | AI for EDA (all 29 tools) |
-| 🌐 **Tech Media & Bloggers** | Industry research, reference material | All 11 categories |
+| 🌐 **Tech Media & Bloggers** | Industry research, reference material | All 12 categories |
 
 ---
 
