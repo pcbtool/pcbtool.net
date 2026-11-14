@@ -1,4 +1,4 @@
-# PCBTool.Net — The Ultimate PCB Design Tools Directory (389 Tools & Counting)
+# PCBTool.Net — The Ultimate PCB Design Tools Directory (403 Tools & Counting)
 
 > From schematic capture to PCB simulation, from AI-powered EDA to online Gerber viewers, from component libraries to hardware communities — one site to find the right tool for every stage of hardware design.
 
@@ -14,7 +14,7 @@ Or maybe you want to try one of the new AI-powered PCB design tools, but you hav
 
 **PCBTool.Net has a simple mission: spend less time finding tools, more time using them.**
 
-Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 389 PCB design tools, with detailed information on each one.
+Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 403 PCB design tools, with detailed information on each one.
 
 ---
 
@@ -24,16 +24,16 @@ Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bili
 |-----------|------|-------|-------|
 | Initial Launch | 2026-04 | ~90 | Core EDA tools |
 | Major Expansion | 2026-04-07 | 220+ | Added Chinese domestic EDA ecosystem |
-| Ongoing Growth | 2026-04 ~ now | 389+ | AI for EDA, simulation, communities, etc. |
-| **Latest** | **2026-06-22** | **389 tools** | **12 categories, 780+ generated pages** |
+| Ongoing Growth | 2026-04 ~ now | 403+ | AI for EDA, simulation, communities, etc. |
+| **Latest** | **2026-11-14** | **403 tools** | **12 categories, 826 generated pages** |
 
 **Tech stack:** Node.js + Markdown → static HTML. No frameworks, no databases, no JavaScript rendering. Every page is pre-rendered at build time for maximum performance and SEO.
 
 ---
 
-## 389 Tools × 12 Categories
+## 403 Tools × 12 Categories
 
-### 🧠 AI for EDA (39 Tools) — Fastest Growing Category
+### 🧠 AI for EDA (54 Tools) — Fastest Growing Category
 
 The hottest space in EDA right now. AI tools that generate schematics, place components, review designs, and even write firmware from natural language descriptions.
 
@@ -78,9 +78,24 @@ The hottest space in EDA right now. AI tools that generate schematics, place com
 | **Silixon** | silixon | AI-driven silicon and chip design workflow | https://pcbtool.net/sites/silixon |
 | **Trace** | trace | AI-powered hardware design and collaboration platform | https://pcbtool.net/sites/trace |
 | **ZiroEDA** | ziroeda | Zero-UI AI EDA with natural-language hardware design | https://pcbtool.net/sites/ziroeda |
+| **AI-PCB (昭新EDA)** | aipcbpro | AI-driven PCB platform — prompt to schematic, layout, routing and Gerber; switchable LLMs (DeepSeek/Kimi/Qwen/GLM/Hunyuan) | https://pcbtool.net/sites/aipcbpro |
+| **atopile** | atopile | Hardware-as-code EDA — declarative `.ato` language with constraint solving, native KiCad layout | https://pcbtool.net/sites/atopile |
+| **Cherry Blossom** | cherry-blossom | Prompt-to-PCB EDA rebuilt from scratch by an AI agent team; exports Gerber, BOM and pick-and-place | https://pcbtool.net/sites/cherry-blossom |
+| **Coppr** | copprlab | Agentic EDA billed as an "AI hardware engineer" — intent to Gerber with ERC/DRC/DFM/SPICE checks | https://pcbtool.net/sites/copprlab |
+| **facetok EDA** | facetok | AI EDA for industrial PCB and package design, closing the engineering-constraint loop | https://pcbtool.net/sites/facetok |
+| **HelioCad** | heliocad | Browser AI CAD/CAM plus electronics workspace — text or photo to 3D model and 2.5D–5-axis toolpaths | https://pcbtool.net/sites/heliocad |
+| **JetV (见微开物)** | jetv | End-to-end AI hardware design — requirements, selection, schematic and PCB file in one conversation | https://pcbtool.net/sites/jetv |
+| **Jiqing (即擎)** | jiqingx | AI-automated design platform for embodied AI — circuit, structure and assembly in one project | https://pcbtool.net/sites/jiqingx |
+| **Ohmatic** | ohmatic | PCB design environment rewritten for AI collaboration; the agent proposes verifiable plans | https://pcbtool.net/sites/ohmatic |
+| **OpenCE** | opence | Physical-AI toolchain — one-line requirement to manufacturable PCB with native KiCad output | https://pcbtool.net/sites/opence |
+| **PCBEditor** | pcbeditor | Free browser PCB editor blending AI circuit generation with manual drawing | https://pcbtool.net/sites/pcbeditor |
+| **Phasor** | phasoreda | AI-native design suite — the agent places parts and routes nets on a live editable schematic | https://pcbtool.net/sites/phasoreda |
+| **Resin EDA** | resineda | AI embedded in the PCB workflow — one-line circuit to schematic, routing, ERC/DRC and production package | https://pcbtool.net/sites/resineda |
+| **SchAI** | schai | AI agent for board-level schematic and IC design, with DC/AC/transient simulation | https://pcbtool.net/sites/schai |
+| **Xinhui (芯绘)** | xh-navexor | AI circuit design spanning requirements, component selection, schematic, layout and DRC | https://pcbtool.net/sites/xh-navexor |
 
 
-> 🤖 If you want to understand the AI for EDA landscape in 2026, these 39 tools cover virtually every player.
+> 🤖 If you want to understand the AI for EDA landscape in 2026, these 54 tools cover virtually every player.
 
 ---
 
@@ -134,13 +149,13 @@ View and compare PCB/Gerber files directly in your browser — no software insta
 | **Online Gerber Viewer** | online-gerber-viewer | Lightweight online Gerber viewer built on tracespace | https://pcbtool.net/sites/online-gerber-viewer |
 | **Online Gerber Viewer** | onlinegerberviewer | Free online Gerber file viewer | https://pcbtool.net/sites/onlinegerberviewer |
 | **Tracespace View** | tracespace-view | Open-source online Gerber rendering and viewing tool | https://pcbtool.net/sites/tracespace-view |
-| **Ucamco Gerber Viewer** | ucamco-gerber-viewer | Official online viewer by the creators of the Gerber format | https://pcbtool.net/sites/ucamco-gerber-viewer |
+| **Ucamco Gerber Viewer** | uc-amco-gerber-viewer | Official online viewer by the creators of the Gerber format | https://pcbtool.net/sites/uc-amco-gerber-viewer |
 | **Wasm Gerber Viewer** | wasm-gerber-viewer | High-performance online Gerber viewer using WASM + WebGL2 | https://pcbtool.net/sites/wasm-gerber-viewer |
 | **Web Gerber** | web-gerber | Lightweight online Gerber viewer by Mayhew Labs | https://pcbtool.net/sites/web-gerber |
 
 ---
 
-### 📋 Schematic & PCB (119 Tools) — Largest Category
+### 📋 Schematic & PCB (118 Tools) — Largest Category
 
 The foundation of the directory — every EDA tool you've heard of and many you haven't. Split into international, Chinese domestic, and classic/retro tools.
 
@@ -189,14 +204,13 @@ The foundation of the directory — every EDA tool you've heard of and many you 
 | **VXintech Venus** | vxintech-venus | VXintech cloud platform | https://pcbtool.net/sites/vxintech-venus |
 | **RedPCB** | redpcb | RedEDA PCB design tool | https://pcbtool.net/sites/redpcb |
 | **RedPKG** | redpkg | RedEDA packaging design | https://pcbtool.net/sites/redpkg |
-| **Huaqiu EDA** | heroeda | Huaqiu Electronics EDA | https://pcbtool.net/sites/heroeda |
 | **HiPCB** | hipcb | PCB design by ShuShang InfoTech | https://pcbtool.net/sites/hipcb |
 | **Zhizao EDA** | zhizao-eda | Chinese EDA newcomer | https://pcbtool.net/sites/zhizao-eda |
 | **Yunheng EDA** | yunheng-eda | Chinese cloud EDA platform | https://pcbtool.net/sites/yunheng-eda |
 | **Qingyuefeng** | qingyuefeng | Chinese PCB design software | https://pcbtool.net/sites/qingyuefeng |
 | **Sailwind PCB** | sailwind | Chinese PCB design tool | https://pcbtool.net/sites/sailwind |
 | **SunV EDA** | sunv-eda | Chinese EDA platform | https://pcbtool.net/sites/sunv-eda |
-| **Liatro EDA** | liatro-eda | Chinese EDA design tool | https://pcbtool.net/sites/liatro-eda |
+| **Liatro EDA** | liatro-electrical-design | Chinese EDA design tool | https://pcbtool.net/sites/liatro-electrical-design |
 | **VEE CAD** | veecad | Chinese EDA tool | https://pcbtool.net/sites/veecad |
 | **Huaqiu EDA Std** | hq-eda | Huaqiu EDA professional tier| https://pcbtool.net/sites/hq-eda |
 | **Razen** | razen | Chinese PCB design tool| https://pcbtool.net/sites/razen |
@@ -300,7 +314,7 @@ Browser-based circuit simulators — run SPICE and digital simulations without i
 | **DC/AC Lab** | dcaclab | Online virtual electronics lab | https://pcbtool.net/sites/dcaclab |
 | **EDA Playground** | eda-playground | Online Verilog/VHDL/Spice editor and simulator | https://pcbtool.net/sites/eda-playground |
 | **EveryCircuit** | everycircuit | Interactive animated circuit simulator | https://pcbtool.net/sites/everycircuit |
-| **Falstad's Circuit Simulator** | circuit-mod | Java/JS-based interactive circuit simulation | https://pcbtool.net/sites/circuit-mod |
+| **Falstad's Circuit Simulator** | circuitmod | Java/JS-based interactive circuit simulation | https://pcbtool.net/sites/circuitmod |
 | **IdealCircuit** | ideal-circuit | Real-time circuit simulation and analysis | https://pcbtool.net/sites/ideal-circuit |
 | **Infineon SPICE** | infineonspice | Infineon's online SPICE simulator | https://pcbtool.net/sites/infineonspice |
 | **Logic Gate Simulator** | logic-gate-sim | Simple online digital logic simulator | https://pcbtool.net/sites/logic-gate-sim |
@@ -445,7 +459,6 @@ Gerber viewers, DFM check tools, and design rule verification — your last line
 | **Numerical Innovations** | numerical-innovations | PCB visualization tools | https://pcbtool.net/sites/numerical-innovations |
 | **Vayo View Expert** | vayo-view-expert | PCB design review tool | https://pcbtool.net/sites/vayo-view-expert |
 | **VisualPlace** | visualplace | PCB assembly visualization | https://pcbtool.net/sites/visualplace |
-| **PCBA Partner BOM & Placement Checker** | pcba-partner-bom-checker | Browser-based BOM checks for quantities, part numbers and references; optional pick-and-place comparison | https://pcbapartner.com/tools/bom-checker/ |
 | **MCN Gerber Viewer** | mcn-gerber-viewer | Audio-focused Gerber viewer | https://pcbtool.net/sites/mcn-gerber-viewer |
 | **GerbView** | gerbview | Professional Gerber editor/viewer | https://pcbtool.net/sites/gerbview |
 | **ProntoVIEW MARKUP** | prontoview-markup | PCB design review and markup | https://pcbtool.net/sites/prontoview-markup |
@@ -526,7 +539,7 @@ Engineering calculators for PCB design — impedance, trace width, stackup, and 
 
 ---
 
-### 👥 Hardware Community (31 Tools)
+### 👥 Hardware Community (30 Tools)
 
 The global hardware community — forums, project sharing, and maker platforms.
 
@@ -578,7 +591,7 @@ Every tool page, category page, and static page has both English and Chinese ver
 Language preference is saved in localStorage for return visits.
 
 ### 📄 Tool Detail Pages
-Each of the 389 tools has its own detail page with:
+Each of the 403 tools has its own detail page with:
 
 ```
 Home > Category > Tool Name (breadcrumb)
@@ -612,29 +625,32 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 | Image Processing | sharp (PNG/ICO/SVG → WebP) |
 | Frontend | Vanilla JS + CSS (no frameworks) |
 | Icons | Font Awesome 6 (CDN) |
-| Deployment | Netlify (global CDN, HTTPS) |
+| Deployment | Cloudflare Pages (global CDN, HTTPS) |
 | License | MIT (open source) |
 
 ---
 
-## Recent Additions (Last Batch: 2026-06-22)
+## Recent Additions (Last Batch: 2026-11-14)
 
-12 tools added in the most recent update:
+15 tools added in the most recent update — all in the AI for EDA category:
 
 | Tool | Category | One-Liner |
 |------|----------|-----------|
-| **Schematik** | AI for EDA | "The Cursor for hardware" — AI Hardware IDE |
-| **Tinkered** | AI for EDA | AI generation + 3D simulation + one-click deploy |
-| **Pinscope** | AI for EDA | AI schematic review, pin-by-pin against datasheets |
-| **Circuit Tree** | AI for EDA | Automated PCB design engine, 10-min delivery |
-| **hardware.dog** | AI for EDA | Comprehensive AI hardware design workbench |
-| **iOrchestra** | AI for EDA | NVIDIA Blackwell-powered AI hardware design |
-| **Blueprint.am** | AI for EDA | By 3E8 Robotics — natural language to hardware |
-| **AutoCuro** | AI for EDA | AI auto PCB placement/routing (India-based team) |
-| **Faradworks** | AI for EDA | Applied AI lab (creator of Pinscope) |
-| **ZeroOhm AI** | AI for EDA | AI PCB validation platform (Beta) |
-| **JetPave** | AI for EDA | Jiepei's AI hardware platform (inactive/discontinued) |
-| **DIY Layout Creator** | Schematic & PCB | Open-source circuit layout tool, 1.5k GitHub Stars |
+| **JetV (见微开物)** | AI for EDA | End-to-end AI hardware design by Hangzhou Youmei Intelligent Technology |
+| **AI-PCB (昭新EDA)** | AI for EDA | Multi-LLM PCB generation — DeepSeek/Kimi/Qwen/GLM/Hunyuan switchable |
+| **atopile** | AI for EDA | Hardware-as-code with a declarative `.ato` language |
+| **Cherry Blossom** | AI for EDA | Prompt-to-PCB EDA built from scratch by an AI agent team |
+| **Coppr** | AI for EDA | Agentic EDA — intent to Gerber with ERC/DRC/DFM/SPICE checks |
+| **facetok EDA** | AI for EDA | Industrial PCB and package design with constraint closure |
+| **HelioCad** | AI for EDA | AI CAD/CAM plus electronics workspace in the browser |
+| **Jiqing (即擎)** | AI for EDA | Embodied-AI design — circuit, structure and assembly |
+| **Ohmatic** | AI for EDA | PCB environment rebuilt for AI collaboration |
+| **OpenCE** | AI for EDA | Physical-AI toolchain with native KiCad output |
+| **PCBEditor** | AI for EDA | Free browser PCB editor with AI circuit generation |
+| **Phasor** | AI for EDA | AI-native suite with a live schematic agent |
+| **Resin EDA** | AI for EDA | AI wired into the PCB workflow end to end |
+| **SchAI** | AI for EDA | Schematic and IC design agent with simulation |
+| **Xinhui (芯绘)** | AI for EDA | Full-chain AI circuit design for engineering tasks |
 
 ---
 
@@ -646,7 +662,7 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 | 🚀 **Hardware Startups** | Build toolchains, evaluate AI productivity gains | AI for EDA / Online Tools / Layout & Routing |
 | 🎓 **Students** | Find free/open-source learning tools | Schematic & PCB / Simulation / Calculators |
 | 🔧 **Makers & Hobbyists** | Rapid prototyping tools | AI for EDA / Online Schematic & PCB / Community |
-| 🤖 **AI Practitioners** | Understand the AI for EDA landscape | AI for EDA (all 29 tools) |
+| 🤖 **AI Practitioners** | Understand the AI for EDA landscape | AI for EDA (all 54 tools) |
 | 🌐 **Tech Media & Bloggers** | Industry research, reference material | All 12 categories |
 
 ---
