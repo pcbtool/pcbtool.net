@@ -1,4 +1,4 @@
-# PCBTool.Net — The Ultimate PCB Design Tools Directory (403 Tools & Counting)
+# PCBTool.Net — The Ultimate PCB Design Tools Directory (404 Tools & Counting)
 
 > From schematic capture to PCB simulation, from AI-powered EDA to online Gerber viewers, from component libraries to hardware communities — one site to find the right tool for every stage of hardware design.
 
@@ -14,7 +14,7 @@ Or maybe you want to try one of the new AI-powered PCB design tools, but you hav
 
 **PCBTool.Net has a simple mission: spend less time finding tools, more time using them.**
 
-Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 403 PCB design tools, with detailed information on each one.
+Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 404 PCB design tools, with detailed information on each one.
 
 ---
 
@@ -24,14 +24,14 @@ Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bili
 |-----------|------|-------|-------|
 | Initial Launch | 2026-04 | ~90 | Core EDA tools |
 | Major Expansion | 2026-04-07 | 220+ | Added Chinese domestic EDA ecosystem |
-| Ongoing Growth | 2026-04 ~ now | 403+ | AI for EDA, simulation, communities, etc. |
-| **Latest** | **2026-11-14** | **403 tools** | **12 categories, 826 generated pages** |
+| Ongoing Growth | 2026-04 ~ now | 404+ | AI for EDA, simulation, communities, etc. |
+| **Latest** | **2026-11-14** | **404 tools** | **12 categories, 828 generated pages** |
 
 **Tech stack:** Node.js + Markdown → static HTML. No frameworks, no databases, no JavaScript rendering. Every page is pre-rendered at build time for maximum performance and SEO.
 
 ---
 
-## 403 Tools × 12 Categories
+## 404 Tools × 12 Categories
 
 ### 🧠 AI for EDA (54 Tools) — Fastest Growing Category
 
@@ -155,7 +155,7 @@ View and compare PCB/Gerber files directly in your browser — no software insta
 
 ---
 
-### 📋 Schematic & PCB (118 Tools) — Largest Category
+### 📋 Schematic & PCB (119 Tools) — Largest Category
 
 The foundation of the directory — every EDA tool you've heard of and many you haven't. Split into international, Chinese domestic, and classic/retro tools.
 
@@ -204,6 +204,7 @@ The foundation of the directory — every EDA tool you've heard of and many you 
 | **VXintech Venus** | vxintech-venus | VXintech cloud platform | https://pcbtool.net/sites/vxintech-venus |
 | **RedPCB** | redpcb | RedEDA PCB design tool | https://pcbtool.net/sites/redpcb |
 | **RedPKG** | redpkg | RedEDA packaging design | https://pcbtool.net/sites/redpkg |
+| **XIAWEI EDA (侠为EDA)** | heroeda | Chinese EDA suite, up to 32-layer PCB, cloud collaboration (inactive) | https://pcbtool.net/sites/heroeda |
 | **HiPCB** | hipcb | PCB design by ShuShang InfoTech | https://pcbtool.net/sites/hipcb |
 | **Zhizao EDA** | zhizao-eda | Chinese EDA newcomer | https://pcbtool.net/sites/zhizao-eda |
 | **Yunheng EDA** | yunheng-eda | Chinese cloud EDA platform | https://pcbtool.net/sites/yunheng-eda |
@@ -591,7 +592,7 @@ Every tool page, category page, and static page has both English and Chinese ver
 Language preference is saved in localStorage for return visits.
 
 ### 📄 Tool Detail Pages
-Each of the 403 tools has its own detail page with:
+Each of the 404 tools has its own detail page with:
 
 ```
 Home > Category > Tool Name (breadcrumb)
