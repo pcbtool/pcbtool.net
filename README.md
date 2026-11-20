@@ -1,4 +1,4 @@
-# PCBTool.Net — The Ultimate PCB Design Tools Directory (404 Tools & Counting)
+# PCBTool.Net — The Ultimate PCB Design Tools Directory (405 Tools & Counting)
 
 > From schematic capture to PCB simulation, from AI-powered EDA to online Gerber viewers, from component libraries to hardware communities — one site to find the right tool for every stage of hardware design.
 
@@ -14,7 +14,7 @@ Or maybe you want to try one of the new AI-powered PCB design tools, but you hav
 
 **PCBTool.Net has a simple mission: spend less time finding tools, more time using them.**
 
-Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 404 PCB design tools, with detailed information on each one.
+Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bilingual directory of 405 PCB design tools, with detailed information on each one.
 
 ---
 
@@ -24,14 +24,14 @@ Think of it as the "Yellow Pages for EDA tools" — a curated, categorized, bili
 |-----------|------|-------|-------|
 | Initial Launch | 2026-04 | ~90 | Core EDA tools |
 | Major Expansion | 2026-04-07 | 220+ | Added Chinese domestic EDA ecosystem |
-| Ongoing Growth | 2026-04 ~ now | 404+ | AI for EDA, simulation, communities, etc. |
-| **Latest** | **2026-11-14** | **404 tools** | **12 categories, 828 generated pages** |
+| Ongoing Growth | 2026-04 ~ now | 405+ | AI for EDA, simulation, communities, etc. |
+| **Latest** | **2026-11-20** | **405 tools** | **12 categories, 830 generated pages** |
 
 **Tech stack:** Node.js + Markdown → static HTML. No frameworks, no databases, no JavaScript rendering. Every page is pre-rendered at build time for maximum performance and SEO.
 
 ---
 
-## 404 Tools × 12 Categories
+## 405 Tools × 12 Categories
 
 ### 🧠 AI for EDA (54 Tools) — Fastest Growing Category
 
@@ -192,12 +192,7 @@ The foundation of the directory — every EDA tool you've heard of and many you 
 
 | Tool | Slug | One-Liner | URL |
 |------|------|-----------|---|
-| **LCEDA Std** | jlceda | Chinese online EDA benchmark, 5.33M+ users | https://pcbtool.net/sites/jlceda |
-| **LCEDA Pro** | jlceda-pro | Professional tier for large-scale designs | https://pcbtool.net/sites/jlceda-pro |
 | **EasyEDA Std** | easyeda | International version of the same platform | https://pcbtool.net/sites/easyeda |
-| **EasyEDA Pro** | easyeda-pro | Enterprise tier | https://pcbtool.net/sites/easyeda-pro |
-| **Jiepei EDA** | jp-eda | Cloud EDA with Jiepei manufacturing integration | https://pcbtool.net/sites/jp-eda |
-| **Qiyunfang Schematic** | qiyunfang-schematic | Newkailai subsidiary domestic EDA | https://pcbtool.net/sites/qiyunfang-schematic |
 | **Qiyunfang PCB** | qiyunfang-pcb | Chinese PCB design tool | https://pcbtool.net/sites/qiyunfang-pcb |
 | **VXintech Jupiter** | vxintech-jupiter | VXintech schematic design | https://pcbtool.net/sites/vxintech-jupiter |
 | **VXintech Mars** | vxintech-mars | VXintech PCB design | https://pcbtool.net/sites/vxintech-mars |
@@ -234,6 +229,7 @@ Classic / Retro (Still Worth Knowing):
 | **CADINT** | cadint | Legacy EDA schematic/PCB tool| https://pcbtool.net/sites/cadint |
 | **CADSTAR** | cadstar | Legacy PCB and schematic design suite| https://pcbtool.net/sites/cadstar |
 | **Caneda** | caneda | Open-source schematic capture (Linux/Windows)| https://pcbtool.net/sites/caneda |
+| **TinyCAD** | tinycad | Free open-source schematic editor for Windows| https://pcbtool.net/sites/tinycad |
 | **CIDESS** | cidess | Legacy schematic capture tool| https://pcbtool.net/sites/cidess |
 | **CIRCAD** | circad | Legacy PCB layout software| https://pcbtool.net/sites/circad |
 | **AACircuit** | aacircuit | Classic circuit schematic capture tool| https://pcbtool.net/sites/aacircuit |
@@ -302,7 +298,7 @@ Classic / Retro (Still Worth Knowing):
 
 ---
 
-### 🔬 Online Schematic Simulation (25 Tools)
+### 🔬 Online Schematic Simulation (26 Tools)
 
 Browser-based circuit simulators — run SPICE and digital simulations without installing anything.
 
@@ -333,6 +329,7 @@ Browser-based circuit simulators — run SPICE and digital simulations without i
 | **EECircuit** | eecircuit | Online circuit simulator | https://pcbtool.net/sites/eecircuit |
 | **CircuitForge** | circuitforge | Browser-based collaborative circuit design and simulation | https://pcbtool.net/sites/circuitforge |
 | **CircuitSim** | circuitsim | Online circuit simulation and analysis in the browser | https://pcbtool.net/sites/circuitsim |
+| **Analog Analyzer** | analog-analyzer | Offline schematic editor with symbolic small-signal analysis — exact H(s), zeros and poles | https://pcbtool.net/sites/analog-analyzer |
 
 
 ---
@@ -355,7 +352,6 @@ Desktop SPICE simulators and circuit analysis tools for professional use.
 | **SimOne** | simone | Circuit simulation tool | https://pcbtool.net/sites/simone |
 | **PSIM** | psim | Power electronics simulation specialist | https://pcbtool.net/sites/psim |
 | **SIMULIDE** | simulide | Real-time electronics simulator | https://pcbtool.net/sites/simulide |
-| **Proteus** | proteus | Unique MCU + circuit co-simulation | https://pcbtool.net/sites/proteus |
 | **DesignSpark Simulator** | designspark-simulator | RS Group's circuit simulator | https://pcbtool.net/sites/designspark-simulator |
 | **LogicWorks** | logicworks | Digital logic simulation and design | https://pcbtool.net/sites/logicworks |
 | **Logisim** | logisim | Educational digital logic simulator | https://pcbtool.net/sites/logisim |
@@ -364,7 +360,6 @@ Desktop SPICE simulators and circuit analysis tools for professional use.
 | **Solve Elec** | solve-elec | Educational circuit analysis | https://pcbtool.net/sites/solve-elec |
 | **Circuit Logix** | circuit-logix | Professional circuit simulation suite | https://pcbtool.net/sites/circuit-logix |
 | **Pulsonix Simulation** | pulsonixsim | SPICE simulation integrated with Pulsonix PCB | https://pcbtool.net/sites/pulsonixsim |
-| **SIMONE** | simone | Analog circuit simulation | https://pcbtool.net/sites/simone |
 | **Deeds** | deeds | Digital electronics education suite | https://pcbtool.net/sites/deeds |
 | **GeckoCircuits** | geckocircuits | Circuit simulation and PCB design | https://pcbtool.net/sites/geckocircuits |
 | **McCAD 3SPICE** | mccad-3spice | SPICE simulation engine | https://pcbtool.net/sites/mccad-3spice |
@@ -385,7 +380,6 @@ Desktop SPICE simulators and circuit analysis tools for professional use.
 | **Electric** | electric | VLSI design system | https://pcbtool.net/sites/electric |
 | **Logicly** | logicly | Educational logic gate simulator | https://pcbtool.net/sites/logicly |
 | **Multimedia Logic** | multimedia-logic | Educational digital logic design | https://pcbtool.net/sites/multimedia-logic |
-| **SmartSim** | smartsim | Digital circuit simulation tool | https://pcbtool.net/sites/smartsim |
 | **CEDAR Logic** | cedarlogic | CEDAR Logic digital simulation suite | https://pcbtool.net/sites/cedarlogic |
 | **HADES Simulation** | hades-sim | HADES hardware simulation framework for mixed systems | https://pcbtool.net/sites/hades-sim |
 | **PECS Simulation** | pecs-sim | PECS simulation edition for education | https://pcbtool.net/sites/pecs-sim |
@@ -592,7 +586,7 @@ Every tool page, category page, and static page has both English and Chinese ver
 Language preference is saved in localStorage for return visits.
 
 ### 📄 Tool Detail Pages
-Each of the 404 tools has its own detail page with:
+Each of the 405 tools has its own detail page with:
 
 ```
 Home > Category > Tool Name (breadcrumb)
@@ -631,9 +625,16 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 
 ---
 
-## Recent Additions (Last Batch: 2026-11-14)
+## Recent Additions (Last Batch: 2026-11-20)
 
-15 tools added in the most recent update — all in the AI for EDA category:
+1 tool added in the most recent update — in the Online Schematic Simulation category:
+
+| Tool | Category | One-Liner |
+|------|----------|-----------|
+| **Analog Analyzer** | Online Schematic Simulation | Offline schematic editor with symbolic small-signal analysis — exact H(s), zeros and poles |
+
+<details>
+<summary>Previous batch (2026-11-14) — 15 tools, all in AI for EDA</summary>
 
 | Tool | Category | One-Liner |
 |------|----------|-----------|
@@ -652,6 +653,8 @@ Built with Node.js + Markdown → 100% static HTML. No databases, no server-side
 | **Resin EDA** | AI for EDA | AI wired into the PCB workflow end to end |
 | **SchAI** | AI for EDA | Schematic and IC design agent with simulation |
 | **Xinhui (芯绘)** | AI for EDA | Full-chain AI circuit design for engineering tasks |
+
+</details>
 
 ---
 
